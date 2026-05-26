@@ -1,6 +1,6 @@
 # FAERS Drug Safety Dashboard
 ### BUS 32130: Data Visualization for Decision-Making — Final Project
-**Douglas Moss · Booth School of Business · Spring 2026**
+**Douglas Moss & Livie Anastasya · Booth School of Business · Spring 2026**
 
 ---
 
@@ -23,7 +23,7 @@ As an emergency physician, I see patients daily whose symptoms may be drug-relat
 | **Data Pipeline** | Jupyter notebook + Python scripts for all data cleaning and processing |
 
 - 📊 [Tableau Public Workbook](#) *(add link after upload)*
-- 🌐 [Drug Safety Explorer — Live App](#) *(add GitHub Pages link)*
+- 🌐 [Drug Safety Explorer — Live App](https://douglasmossmd.github.io/faers-drug-safety-data-viz/drug_safety_explorer.html)
 
 ---
 
@@ -204,4 +204,4 @@ Per course requirements, AI tools were used throughout this project. Their role 
 
 ---
 
-*Data: FDA FAERS 2025 Q1–Q4 · Last updated May 2026*
+*Data: FDA FAERS 2025 Q1–Q4 · Last updated May 2026 · Douglas Moss & Livie Anastasya*
