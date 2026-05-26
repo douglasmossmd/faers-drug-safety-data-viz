@@ -1,0 +1,17 @@
+offlabel_flag,worst_outcome,count,group_total,pct
+Off-Label,Congenital Anomaly,25,103876,0.02
+Off-Label,Death,7731,103876,7.44
+Off-Label,Disability,583,103876,0.56
+Off-Label,Hospitalization,17863,103876,17.2
+Off-Label,Life-Threatening,2959,103876,2.85
+Off-Label,No Outcome Reported,40855,103876,39.33
+Off-Label,Other Serious,33853,103876,32.59
+Off-Label,Required Intervention,7,103876,0.01
+On-Label,Congenital Anomaly,2307,1365429,0.17
+On-Label,Death,102802,1365429,7.53
+On-Label,Disability,11766,1365429,0.86
+On-Label,Hospitalization,232624,1365429,17.04
+On-Label,Life-Threatening,37736,1365429,2.76
+On-Label,No Outcome Reported,605237,1365429,44.33
+On-Label,Other Serious,370773,1365429,27.15
+On-Label,Required Intervention,2184,1365429,0.16

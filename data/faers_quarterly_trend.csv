@@ -1,0 +1,33 @@
+quarter,worst_outcome,count,quarter_total,pct
+Q1,Congenital Anomaly,499,333288,0.15
+Q1,Death,27336,333288,8.2
+Q1,Disability,2749,333288,0.82
+Q1,Hospitalization,54816,333288,16.45
+Q1,Life-Threatening,8473,333288,2.54
+Q1,No Outcome Reported,152785,333288,45.84
+Q1,Other Serious,86107,333288,25.84
+Q1,Required Intervention,523,333288,0.16
+Q2,Congenital Anomaly,735,338529,0.22
+Q2,Death,23527,338529,6.95
+Q2,Disability,3027,338529,0.89
+Q2,Hospitalization,57245,338529,16.91
+Q2,Life-Threatening,9841,338529,2.91
+Q2,No Outcome Reported,151578,338529,44.78
+Q2,Other Serious,91873,338529,27.14
+Q2,Required Intervention,703,338529,0.21
+Q3,Congenital Anomaly,582,412200,0.14
+Q3,Death,33379,412200,8.1
+Q3,Disability,3432,412200,0.83
+Q3,Hospitalization,70603,412200,17.13
+Q3,Life-Threatening,11711,412200,2.84
+Q3,No Outcome Reported,174783,412200,42.4
+Q3,Other Serious,117173,412200,28.43
+Q3,Required Intervention,537,412200,0.13
+Q4,Congenital Anomaly,516,385288,0.13
+Q4,Death,26291,385288,6.82
+Q4,Disability,3141,385288,0.82
+Q4,Hospitalization,67823,385288,17.6
+Q4,Life-Threatening,10670,385288,2.77
+Q4,No Outcome Reported,166946,385288,43.33
+Q4,Other Serious,109473,385288,28.41
+Q4,Required Intervention,428,385288,0.11
