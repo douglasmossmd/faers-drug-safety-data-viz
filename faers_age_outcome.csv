@@ -1,0 +1,54 @@
+age_grp_label,worst_outcome,count
+Adolescent,Congenital Anomaly,3
+Adolescent,Death,293
+Adolescent,Disability,73
+Adolescent,Hospitalization,1777
+Adolescent,Life-Threatening,367
+Adolescent,No Outcome Reported,10279
+Adolescent,Other Serious,2522
+Adolescent,Required Intervention,1
+Adult,Congenital Anomaly,41
+Adult,Death,13200
+Adult,Disability,1966
+Adult,Hospitalization,38251
+Adult,Life-Threatening,6494
+Adult,No Outcome Reported,162594
+Adult,Other Serious,66630
+Adult,Required Intervention,24
+Child,Congenital Anomaly,34
+Child,Death,487
+Child,Disability,67
+Child,Hospitalization,2025
+Child,Life-Threatening,384
+Child,No Outcome Reported,15432
+Child,Other Serious,3430
+Elderly,Congenital Anomaly,8
+Elderly,Death,19406
+Elderly,Disability,1099
+Elderly,Hospitalization,36494
+Elderly,Life-Threatening,4245
+Elderly,No Outcome Reported,86086
+Elderly,Other Serious,46190
+Elderly,Required Intervention,19
+Infant,Congenital Anomaly,188
+Infant,Death,336
+Infant,Disability,12
+Infant,Hospitalization,793
+Infant,Life-Threatening,139
+Infant,No Outcome Reported,1771
+Infant,Other Serious,877
+Neonate,Congenital Anomaly,411
+Neonate,Death,224
+Neonate,Disability,23
+Neonate,Hospitalization,520
+Neonate,Life-Threatening,178
+Neonate,No Outcome Reported,149
+Neonate,Other Serious,762
+Unknown,Congenital Anomaly,1647
+Unknown,Death,76587
+Unknown,Disability,9109
+Unknown,Hospitalization,170627
+Unknown,Life-Threatening,28888
+Unknown,No Outcome Reported,369781
+Unknown,Other Serious,284215
+Unknown,Required Intervention,2147

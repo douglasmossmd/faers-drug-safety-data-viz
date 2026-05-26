@@ -1,0 +1,3001 @@
+drugname,pt,count
+ACALABRUTINIB,Death,266
+ACALABRUTINIB,Product dose omission issue,195
+ACALABRUTINIB,Fall,174
+ACALABRUTINIB,Fatigue,159
+ACALABRUTINIB,Neuropathy peripheral,98
+ACALABRUTINIB,Asthenia,88
+ACALABRUTINIB,Dyspnoea,84
+ACALABRUTINIB,Pneumonia,78
+ACALABRUTINIB,Dizziness,74
+ACALABRUTINIB,Diarrhoea,69
+ACETAMINOPHEN,Toxicity to various agents,2114
+ACETAMINOPHEN,Overdose,1095
+ACETAMINOPHEN,Intentional overdose,1063
+ACETAMINOPHEN,Acute hepatic failure,667
+ACETAMINOPHEN,Vomiting,570
+ACETAMINOPHEN,Suicide attempt,475
+ACETAMINOPHEN,Liver injury,429
+ACETAMINOPHEN,Completed suicide,398
+ACETAMINOPHEN,Drug ineffective,373
+ACETAMINOPHEN,Abdominal pain,355
+ACOLTREMON,Eye irritation,687
+ACOLTREMON,Eye pain,255
+ACOLTREMON,Drug ineffective,207
+ACOLTREMON,Vision blurred,109
+ACOLTREMON,Ocular hyperaemia,89
+ACOLTREMON,Ocular discomfort,70
+ACOLTREMON,Eye pruritus,48
+ACOLTREMON,Lacrimation increased,42
+ACOLTREMON,Headache,41
+ACOLTREMON,Dry eye,39
+ACTEMRA,Weight increased,586
+ACTEMRA,Off label use,575
+ACTEMRA,Weight decreased,519
+ACTEMRA,Arthralgia,509
+ACTEMRA,Pain,473
+ACTEMRA,Nasopharyngitis,449
+ACTEMRA,No adverse event,435
+ACTEMRA,Drug ineffective,415
+ACTEMRA,Rheumatoid arthritis,411
+ACTEMRA,Oxygen saturation decreased,334
+ACTEMRA ACTPEN,No adverse event,235
+ACTEMRA ACTPEN,Off label use,143
+ACTEMRA ACTPEN,Drug ineffective,116
+ACTEMRA ACTPEN,Arthralgia,105
+ACTEMRA ACTPEN,Pain,84
+ACTEMRA ACTPEN,Joint swelling,79
+ACTEMRA ACTPEN,Rheumatoid arthritis,61
+ACTEMRA ACTPEN,Product dose omission issue,60
+ACTEMRA ACTPEN,Death,51
+ACTEMRA ACTPEN,Fatigue,43
+ADALIMUMAB,Off label use,931
+ADALIMUMAB,Drug ineffective,661
+ADALIMUMAB,Intentional product use issue,529
+ADALIMUMAB,Fatigue,474
+ADALIMUMAB,Arthralgia,400
+ADALIMUMAB,Crohn's disease,387
+ADALIMUMAB,Condition aggravated,383
+ADALIMUMAB,Systemic lupus erythematosus,376
+ADALIMUMAB,Pain,372
+ADALIMUMAB,Diarrhoea,367
+ADBRY,Dermatitis atopic,373
+ADBRY,Drug ineffective,264
+ADBRY,Pruritus,175
+ADBRY,Injection site pain,126
+ADBRY,Rash,123
+ADBRY,Injection site erythema,82
+ADBRY,Injection site swelling,79
+ADBRY,Eczema,77
+ADBRY,Injection site pruritus,73
+ADBRY,Erythema,62
+ADEMPAS,Death,287
+ADEMPAS,Dizziness,127
+ADEMPAS,Hypotension,106
+ADEMPAS,Dyspnoea,102
+ADEMPAS,Headache,94
+ADEMPAS,Fatigue,88
+ADEMPAS,Nausea,76
+ADEMPAS,Peripheral swelling,66
+ADEMPAS,Diarrhoea,57
+ADEMPAS,Fall,57
+ADVATE,Haemarthrosis,2083
+ADVATE,Haemorrhage,1806
+ADVATE,Fall,1152
+ADVATE,Limb injury,937
+ADVATE,Joint injury,881
+ADVATE,Muscle haemorrhage,847
+ADVATE,Contusion,805
+ADVATE,Arthralgia,795
+ADVATE,Head injury,671
+ADVATE,Joint swelling,534
+AIMOVIG,Device difficult to use,780
+AIMOVIG,Drug dose omission by device,660
+AIMOVIG,Migraine,389
+AIMOVIG,Accidental exposure to product,337
+AIMOVIG,Headache,251
+AIMOVIG,Wrong technique in product usage process,247
+AIMOVIG,Injection site pain,171
+AIMOVIG,Device use error,166
+AIMOVIG,Off label use,119
+AIMOVIG,Therapy interrupted,111
+AJOVY,Injection site pain,171
+AJOVY,Migraine,159
+AJOVY,Product use issue,153
+AJOVY,Accidental exposure to product,141
+AJOVY,Inappropriate schedule of product administration,100
+AJOVY,Drug dose omission by device,88
+AJOVY,Device leakage,79
+AJOVY,Device malfunction,79
+AJOVY,Injection site erythema,76
+AJOVY,Headache,75
+ALBUTEROL,Device delivery system issue,2098
+ALBUTEROL,Drug dose omission by device,1578
+ALBUTEROL,Dyspnoea,438
+ALBUTEROL,Incorrect dose administered by device,345
+ALBUTEROL,Device malfunction,318
+ALBUTEROL,Drug ineffective,313
+ALBUTEROL,Device mechanical issue,305
+ALBUTEROL,Off label use,273
+ALBUTEROL,Asthma,272
+ALBUTEROL,Product quality issue,226
+ALBUTEROL SULFATE,Drug dose omission by device,4685
+ALBUTEROL SULFATE,Wrong technique in product usage process,4554
+ALBUTEROL SULFATE,Device delivery system issue,3104
+ALBUTEROL SULFATE,No adverse event,3035
+ALBUTEROL SULFATE,Dyspnoea,2504
+ALBUTEROL SULFATE,Device deposit issue,1265
+ALBUTEROL SULFATE,Wrong technique in device usage process,796
+ALBUTEROL SULFATE,Off label use,669
+ALBUTEROL SULFATE,Device malfunction,581
+ALBUTEROL SULFATE,Product use in unapproved indication,508
+ALPRAZOLAM,Toxicity to various agents,209
+ALPRAZOLAM,Drug abuse,203
+ALPRAZOLAM,Drug use disorder,144
+ALPRAZOLAM,Drug dependence,135
+ALPRAZOLAM,Somnolence,130
+ALPRAZOLAM,Drug ineffective,123
+ALPRAZOLAM,Suicide attempt,107
+ALPRAZOLAM,Poisoning deliberate,100
+ALPRAZOLAM,Intentional overdose,95
+ALPRAZOLAM,Off label use,93
+AMBRISENTAN,Death,214
+AMBRISENTAN,Dyspnoea,194
+AMBRISENTAN,Hospitalisation,157
+AMBRISENTAN,Headache,148
+AMBRISENTAN,Pneumonia,109
+AMBRISENTAN,Peripheral swelling,104
+AMBRISENTAN,Dizziness,94
+AMBRISENTAN,Fatigue,91
+AMBRISENTAN,Nausea,90
+AMBRISENTAN,Diarrhoea,89
+AMIODARONE,Drug ineffective,190
+AMIODARONE,Hyperthyroidism,109
+AMIODARONE,Cornea verticillata,106
+AMIODARONE,Hypothyroidism,79
+AMIODARONE,Interstitial lung disease,68
+AMIODARONE,Drug interaction,61
+AMIODARONE,Hypotension,47
+AMIODARONE,Condition aggravated,46
+AMIODARONE,Dyspnoea,46
+AMIODARONE,Atrial fibrillation,39
+AMLODIPINE,Intentional overdose,370
+AMLODIPINE,Hypotension,369
+AMLODIPINE,Toxicity to various agents,281
+AMLODIPINE,Joint swelling,272
+AMLODIPINE,Drug ineffective,238
+AMLODIPINE,Acute kidney injury,220
+AMLODIPINE,Overdose,193
+AMLODIPINE,Suicide attempt,164
+AMLODIPINE,Drug interaction,136
+AMLODIPINE,Dyspnoea,136
+AMOXICILLIN,Rash,106
+AMOXICILLIN,Drug hypersensitivity,100
+AMOXICILLIN,Drug ineffective,90
+AMOXICILLIN,Off label use,88
+AMOXICILLIN,Dyspnoea,81
+AMOXICILLIN,Urticaria,78
+AMOXICILLIN,Anaphylactic shock,74
+AMOXICILLIN,Diarrhoea,73
+AMOXICILLIN,Acute kidney injury,71
+AMOXICILLIN,Anaphylactic reaction,71
+APIXABAN,Drug ineffective,171
+APIXABAN,Gastrointestinal haemorrhage,155
+APIXABAN,Anaemia,120
+APIXABAN,Cerebral haemorrhage,109
+APIXABAN,Pulmonary embolism,105
+APIXABAN,Off label use,103
+APIXABAN,Fatigue,100
+APIXABAN,Arthralgia,96
+APIXABAN,Haemorrhage,93
+APIXABAN,Fall,89
+ARIKAYCE,Hospitalisation,641
+ARIKAYCE,Therapy interrupted,614
+ARIKAYCE,Cough,492
+ARIKAYCE,Dyspnoea,392
+ARIKAYCE,Off label use,362
+ARIKAYCE,Product dose omission issue,349
+ARIKAYCE,Dysphonia,313
+ARIKAYCE,Productive cough,197
+ARIKAYCE,Fatigue,193
+ARIKAYCE,Drug ineffective,181
+ARIPIPRAZOLE,Drug ineffective,269
+ARIPIPRAZOLE,Inappropriate schedule of product administration,252
+ARIPIPRAZOLE,Off label use,244
+ARIPIPRAZOLE,Anxiety,176
+ARIPIPRAZOLE,Product use in unapproved indication,141
+ARIPIPRAZOLE,Depression,130
+ARIPIPRAZOLE,Fatigue,127
+ARIPIPRAZOLE,Somnolence,125
+ARIPIPRAZOLE,Weight increased,124
+ARIPIPRAZOLE,"Hallucination, auditory",120
+ATORVASTATIN,Myalgia,418
+ATORVASTATIN,Rhabdomyolysis,353
+ATORVASTATIN,Arthralgia,245
+ATORVASTATIN,Fatigue,239
+ATORVASTATIN,Acute kidney injury,209
+ATORVASTATIN,Immune-mediated myositis,207
+ATORVASTATIN,Drug interaction,203
+ATORVASTATIN,Headache,203
+ATORVASTATIN,Medication error,187
+ATORVASTATIN,Pain in extremity,186
+AVASTIN,Off label use,448
+AVASTIN,No adverse event,180
+AVASTIN,Death,135
+AVASTIN,Disease progression,129
+AVASTIN,Hypertension,58
+AVASTIN,Myelosuppression,51
+AVASTIN,Asthenia,47
+AVASTIN,Diarrhoea,41
+AVASTIN,Pain,35
+AVASTIN,White blood cell count decreased,33
+AVONEX,Multiple sclerosis relapse,249
+AVONEX,Multiple sclerosis,225
+AVONEX,Influenza like illness,110
+AVONEX,Product dose omission issue,87
+AVONEX,Fall,85
+AVONEX,Fatigue,82
+AVONEX,Memory impairment,76
+AVONEX,Drug ineffective,69
+AVONEX,Gait disturbance,69
+AVONEX,Headache,63
+AYVAKIT,Fatigue,361
+AYVAKIT,Off label use,330
+AYVAKIT,Nausea,279
+AYVAKIT,Diarrhoea,204
+AYVAKIT,Dizziness,146
+AYVAKIT,Headache,139
+AYVAKIT,Brain fog,117
+AYVAKIT,Product dose omission issue,111
+AYVAKIT,Vomiting,111
+AYVAKIT,Rash,107
+AZACITIDINE,Drug ineffective,128
+AZACITIDINE,Neutropenia,118
+AZACITIDINE,Febrile neutropenia,111
+AZACITIDINE,Off label use,78
+AZACITIDINE,Acute myeloid leukaemia,73
+AZACITIDINE,Death,73
+AZACITIDINE,Pyrexia,57
+AZACITIDINE,Pneumonia,54
+AZACITIDINE,Thrombocytopenia,53
+AZACITIDINE,Myelosuppression,48
+AZITHROMYCIN,Drug ineffective,278
+AZITHROMYCIN,Off label use,256
+AZITHROMYCIN,Condition aggravated,134
+AZITHROMYCIN,Diarrhoea,87
+AZITHROMYCIN,Dyspnoea,77
+AZITHROMYCIN,Drug interaction,65
+AZITHROMYCIN,Nausea,64
+AZITHROMYCIN,Drug resistance,54
+AZITHROMYCIN,Drug ineffective for unapproved indication,51
+AZITHROMYCIN,Product use in unapproved indication,51
+BASAGLAR,Blood glucose increased,287
+BASAGLAR,Accidental underdose,264
+BASAGLAR,Haemorrhage,242
+BASAGLAR,Incorrect dose administered,168
+BASAGLAR,Visual impairment,132
+BASAGLAR,Product dose omission issue,101
+BASAGLAR,Blood glucose decreased,79
+BASAGLAR,Injection site pain,69
+BASAGLAR,Pain,66
+BASAGLAR,Cerebrovascular accident,52
+BENLYSTA,Systemic lupus erythematosus,1339
+BENLYSTA,Product dose omission issue,1016
+BENLYSTA,Product complaint,345
+BENLYSTA,Off label use,322
+BENLYSTA,Wrong technique in device usage process,322
+BENLYSTA,Accidental exposure to product,230
+BENLYSTA,Injection site pain,197
+BENLYSTA,Pain,186
+BENLYSTA,Exposure via skin contact,174
+BENLYSTA,Fatigue,166
+BENRALIZUMAB,Death,482
+BENRALIZUMAB,Pneumonia,342
+BENRALIZUMAB,Dyspnoea,330
+BENRALIZUMAB,Asthma,307
+BENRALIZUMAB,Lower respiratory tract infection,223
+BENRALIZUMAB,Cough,187
+BENRALIZUMAB,Inappropriate schedule of product administration,151
+BENRALIZUMAB,Drug ineffective,145
+BENRALIZUMAB,Product dose omission issue,143
+BENRALIZUMAB,Fall,137
+BEVACIZUMAB,Off label use,1380
+BEVACIZUMAB,Death,375
+BEVACIZUMAB,Intentional product use issue,341
+BEVACIZUMAB,Hypertension,258
+BEVACIZUMAB,Diarrhoea,246
+BEVACIZUMAB,Hepatocellular carcinoma,229
+BEVACIZUMAB,Anaemia,215
+BEVACIZUMAB,Fatigue,210
+BEVACIZUMAB,Thrombocytopenia,202
+BEVACIZUMAB,Drug effective for unapproved indication,180
+BIMEKIZUMAB,Psoriatic arthropathy,850
+BIMEKIZUMAB,Psoriasis,476
+BIMEKIZUMAB,Drug ineffective,374
+BIMEKIZUMAB,Injection site pain,335
+BIMEKIZUMAB,Inappropriate schedule of product administration,319
+BIMEKIZUMAB,Product dose omission issue,284
+BIMEKIZUMAB,Off label use,255
+BIMEKIZUMAB,Hidradenitis,216
+BIMEKIZUMAB,Fatigue,189
+BIMEKIZUMAB,Therapeutic response shortened,179
+BIMZELX,Product dose omission issue,2489
+BIMZELX,Psoriasis,1696
+BIMZELX,Drug ineffective,1203
+BIMZELX,Hidradenitis,1169
+BIMZELX,Off label use,903
+BIMZELX,Product availability issue,838
+BIMZELX,Injection site pain,733
+BIMZELX,Condition aggravated,729
+BIMZELX,Inappropriate schedule of product administration,579
+BIMZELX,Incorrect dose administered,527
+BORTEZOMIB,Plasma cell myeloma,266
+BORTEZOMIB,Off label use,220
+BORTEZOMIB,Drug ineffective,188
+BORTEZOMIB,Neuropathy peripheral,120
+BORTEZOMIB,Intentional product use issue,104
+BORTEZOMIB,Plasma cell myeloma recurrent,92
+BORTEZOMIB,Thrombocytopenia,78
+BORTEZOMIB,Pneumonia,68
+BORTEZOMIB,Death,61
+BORTEZOMIB,Neutropenia,55
+BOTOX,Off label use,517
+BOTOX,Drug ineffective,349
+BOTOX,Death,326
+BOTOX,Product storage error,170
+BOTOX,Migraine,120
+BOTOX,Therapeutic response shortened,107
+BOTOX,Botulism,103
+BOTOX,Headache,98
+BOTOX,Adverse drug reaction,77
+BOTOX,Injection site pain,75
+BOTOX COSMETIC,Drug ineffective,422
+BOTOX COSMETIC,Off label use,191
+BOTOX COSMETIC,Product storage error,110
+BOTOX COSMETIC,Injection site pain,85
+BOTOX COSMETIC,Therapeutic response shortened,62
+BOTOX COSMETIC,Product preparation error,54
+BOTOX COSMETIC,Multiple use of single-use product,41
+BOTOX COSMETIC,Eyelid ptosis,38
+BOTOX COSMETIC,Therapeutic product effect incomplete,38
+BOTOX COSMETIC,Product quality issue,29
+BREZTRI,Device delivery system issue,1375
+BREZTRI,Product dose omission issue,1178
+BREZTRI,Dyspnoea,934
+BREZTRI,Wrong technique in device usage process,932
+BREZTRI,Device use issue,735
+BREZTRI,Wrong technique in product usage process,687
+BREZTRI,Incorrect dose administered by device,632
+BREZTRI,Device malfunction,525
+BREZTRI,Incorrect dose administered,523
+BREZTRI,Product use issue,355
+BRUKINSA,Off label use,148
+BRUKINSA,Contusion,84
+BRUKINSA,Platelet count decreased,82
+BRUKINSA,Disease progression,79
+BRUKINSA,White blood cell count decreased,68
+BRUKINSA,Myelosuppression,66
+BRUKINSA,Rash,56
+BRUKINSA,Fatigue,53
+BRUKINSA,Pneumonia,47
+BRUKINSA,Death,45
+BUDESONIDE\FORMOTEROL\GLYCOPYRRONIUM,Death,1666
+BUDESONIDE\FORMOTEROL\GLYCOPYRRONIUM,Device delivery system issue,114
+BUDESONIDE\FORMOTEROL\GLYCOPYRRONIUM,Chronic obstructive pulmonary disease,113
+BUDESONIDE\FORMOTEROL\GLYCOPYRRONIUM,Dyspnoea,83
+BUDESONIDE\FORMOTEROL\GLYCOPYRRONIUM,Cerebrovascular accident,49
+BUDESONIDE\FORMOTEROL\GLYCOPYRRONIUM,Product use issue,48
+BUDESONIDE\FORMOTEROL\GLYCOPYRRONIUM,Neoplasm malignant,45
+BUDESONIDE\FORMOTEROL\GLYCOPYRRONIUM,Product dose omission issue,43
+BUDESONIDE\FORMOTEROL\GLYCOPYRRONIUM,Blindness,39
+BUDESONIDE\FORMOTEROL\GLYCOPYRRONIUM,Illness,36
+BUPRENORPHINE,Death,252
+BUPRENORPHINE,Drug abuse,163
+BUPRENORPHINE,Off label use,93
+BUPRENORPHINE,Drug use disorder,82
+BUPRENORPHINE,Toxicity to various agents,70
+BUPRENORPHINE,Drug ineffective,63
+BUPRENORPHINE,Substance use disorder,50
+BUPRENORPHINE,Drug dependence,48
+BUPRENORPHINE,Nausea,48
+BUPRENORPHINE,Drug withdrawal syndrome,46
+CABENUVA,Product use in unapproved therapeutic environment,171
+CABENUVA,Virologic failure,147
+CABENUVA,Injection site pain,133
+CABENUVA,Viral load increased,131
+CABENUVA,Off label use,123
+CABENUVA,Product dose omission issue,122
+CABENUVA,Pathogen resistance,119
+CABENUVA,Blood HIV RNA increased,70
+CABENUVA,Exposure during pregnancy,61
+CABENUVA,Viral mutation identified,54
+CABOMETYX,Off label use,1468
+CABOMETYX,Diarrhoea,821
+CABOMETYX,Fatigue,694
+CABOMETYX,Malignant neoplasm progression,408
+CABOMETYX,Decreased appetite,401
+CABOMETYX,Nausea,398
+CABOMETYX,Blood pressure increased,353
+CABOMETYX,Palmar-plantar erythrodysaesthesia syndrome,311
+CABOMETYX,Inappropriate schedule of product administration,282
+CABOMETYX,Stomatitis,264
+CAMZYOS,Product use issue,149
+CAMZYOS,Product dose omission issue,142
+CAMZYOS,Fatigue,104
+CAMZYOS,Dyspnoea,86
+CAMZYOS,Off label use,81
+CAMZYOS,Dizziness,74
+CAMZYOS,Atrial fibrillation,67
+CAMZYOS,Adverse drug reaction,54
+CAMZYOS,Adverse event,52
+CAMZYOS,Therapy interrupted,52
+CAPECITABINE,Diarrhoea,237
+CAPECITABINE,Palmar-plantar erythrodysaesthesia syndrome,132
+CAPECITABINE,Nausea,124
+CAPECITABINE,Death,120
+CAPECITABINE,Disease progression,115
+CAPECITABINE,Vomiting,109
+CAPECITABINE,Drug ineffective,100
+CAPECITABINE,Off label use,93
+CAPECITABINE,Neutropenia,85
+CAPECITABINE,Fatigue,82
+CAPLYTA,Dizziness,118
+CAPLYTA,Headache,86
+CAPLYTA,Nausea,80
+CAPLYTA,Somnolence,67
+CAPLYTA,Mania,65
+CAPLYTA,Off label use,65
+CAPLYTA,Drug ineffective,59
+CAPLYTA,Suicidal ideation,49
+CAPLYTA,Anxiety,45
+CAPLYTA,Sedation,42
+CARBIDOPA\LEVODOPA,Death,657
+CARBIDOPA\LEVODOPA,Fall,503
+CARBIDOPA\LEVODOPA,Dyskinesia,408
+CARBIDOPA\LEVODOPA,General physical health deterioration,288
+CARBIDOPA\LEVODOPA,On and off phenomenon,288
+CARBIDOPA\LEVODOPA,Device issue,231
+CARBIDOPA\LEVODOPA,Hallucination,199
+CARBIDOPA\LEVODOPA,Parkinson's disease,198
+CARBIDOPA\LEVODOPA,Tremor,180
+CARBIDOPA\LEVODOPA,Device dislocation,174
+CARBOPLATIN,Off label use,645
+CARBOPLATIN,Anaemia,300
+CARBOPLATIN,Febrile neutropenia,288
+CARBOPLATIN,Pancytopenia,278
+CARBOPLATIN,Thrombocytopenia,272
+CARBOPLATIN,Neutropenia,268
+CARBOPLATIN,Nausea,264
+CARBOPLATIN,Drug ineffective,253
+CARBOPLATIN,Dyspnoea,253
+CARBOPLATIN,Diarrhoea,250
+CARVYKTI,Cytokine release syndrome,229
+CARVYKTI,Hospitalisation,153
+CARVYKTI,Parkinsonism,142
+CARVYKTI,Pyrexia,114
+CARVYKTI,Adverse event,106
+CARVYKTI,Immune effector cell-associated neurotoxicity syndrome,104
+CARVYKTI,Neurotoxicity,83
+CARVYKTI,Malaise,80
+CARVYKTI,Death,73
+CARVYKTI,Cranial nerve paralysis,69
+CERTOLIZUMAB PEGOL,Rheumatoid arthritis,1029
+CERTOLIZUMAB PEGOL,Off label use,678
+CERTOLIZUMAB PEGOL,Inappropriate schedule of product administration,595
+CERTOLIZUMAB PEGOL,Ankylosing spondylitis,528
+CERTOLIZUMAB PEGOL,Drug ineffective,476
+CERTOLIZUMAB PEGOL,Maternal exposure during pregnancy,445
+CERTOLIZUMAB PEGOL,Psoriatic arthropathy,408
+CERTOLIZUMAB PEGOL,Therapy interrupted,335
+CERTOLIZUMAB PEGOL,Product dose omission issue,303
+CERTOLIZUMAB PEGOL,Intentional dose omission,285
+CIMZIA,Rheumatoid arthritis,1307
+CIMZIA,Product dose omission issue,1086
+CIMZIA,Drug ineffective,994
+CIMZIA,Off label use,774
+CIMZIA,Therapy interrupted,664
+CIMZIA,Psoriatic arthropathy,601
+CIMZIA,Maternal exposure during pregnancy,564
+CIMZIA,Pain,530
+CIMZIA,Ankylosing spondylitis,424
+CIMZIA,Psoriasis,397
+CIPROFLOXACIN,Arthralgia,188
+CIPROFLOXACIN,Drug ineffective,139
+CIPROFLOXACIN,Fatigue,134
+CIPROFLOXACIN,Pain,127
+CIPROFLOXACIN,Paraesthesia,108
+CIPROFLOXACIN,Myalgia,107
+CIPROFLOXACIN,Anxiety,99
+CIPROFLOXACIN,Medication error,95
+CIPROFLOXACIN,Pain in extremity,88
+CIPROFLOXACIN,Dyspnoea,87
+CITALOPRAM,Accidental overdose,530
+CITALOPRAM,Completed suicide,96
+CITALOPRAM,Intentional overdose,87
+CITALOPRAM,Death,82
+CITALOPRAM,Toxicity to various agents,80
+CITALOPRAM,Fatigue,78
+CITALOPRAM,Dizziness,76
+CITALOPRAM,Sexual dysfunction,62
+CITALOPRAM,Headache,59
+CITALOPRAM,Anxiety,58
+CLOPIDOGREL,Drug ineffective,96
+CLOPIDOGREL,Anaemia,78
+CLOPIDOGREL,Haemorrhage,64
+CLOPIDOGREL,Cerebral haemorrhage,63
+CLOPIDOGREL,Death,63
+CLOPIDOGREL,Procedural haemorrhage,63
+CLOPIDOGREL,Melaena,62
+CLOPIDOGREL,Abdominal pain,57
+CLOPIDOGREL,Contusion,54
+CLOPIDOGREL,Fatigue,53
+CLOZAPINE,Neutropenia,906
+CLOZAPINE,Death,485
+CLOZAPINE,Off label use,340
+CLOZAPINE,Hospitalisation,293
+CLOZAPINE,Neutrophilia,186
+CLOZAPINE,Myocarditis,183
+CLOZAPINE,Leukopenia,162
+CLOZAPINE,Treatment noncompliance,152
+CLOZAPINE,Drug interaction,136
+CLOZAPINE,Drug ineffective,127
+CLOZARIL,Hospitalisation,955
+CLOZARIL,Death,661
+CLOZARIL,Off label use,641
+CLOZARIL,Schizophrenia,522
+CLOZARIL,Treatment noncompliance,510
+CLOZARIL,Neutropenia,465
+CLOZARIL,Mental impairment,440
+CLOZARIL,Leukocytosis,423
+CLOZARIL,Malaise,399
+CLOZARIL,White blood cell count decreased,378
+COBENFY,Nausea,352
+COBENFY,Vomiting,271
+COBENFY,Constipation,123
+COBENFY,Off label use,105
+COBENFY,Urinary retention,94
+COBENFY,Dizziness,73
+COBENFY,Dyspepsia,72
+COBENFY,Hyperhidrosis,51
+COBENFY,Vision blurred,50
+COBENFY,Drug ineffective,39
+CONTRAVE,Nausea,497
+CONTRAVE,Headache,295
+CONTRAVE,Dizziness,250
+CONTRAVE,Patient dissatisfaction with treatment,190
+CONTRAVE,Illness,174
+CONTRAVE,Feeling abnormal,153
+CONTRAVE,Vomiting,144
+CONTRAVE,Constipation,124
+CONTRAVE,Anxiety,106
+CONTRAVE,Insomnia,97
+CORTICOTROPIN,Injection site bruising,627
+CORTICOTROPIN,Fatigue,583
+CORTICOTROPIN,Injection site pain,567
+CORTICOTROPIN,Insomnia,466
+CORTICOTROPIN,Product dose omission issue,416
+CORTICOTROPIN,Headache,362
+CORTICOTROPIN,Pain,335
+CORTICOTROPIN,Drug ineffective,317
+CORTICOTROPIN,Blood glucose increased,312
+CORTICOTROPIN,Weight increased,295
+COSENTYX,Accidental exposure to product,1051
+COSENTYX,Pain,734
+COSENTYX,Device leakage,690
+COSENTYX,Psoriasis,626
+COSENTYX,Drug ineffective,618
+COSENTYX,Arthralgia,612
+COSENTYX,Drug dose omission by device,572
+COSENTYX,Device malfunction,546
+COSENTYX,Condition aggravated,524
+COSENTYX,Lower respiratory tract infection,492
+CREON,Diarrhoea,579
+CREON,Pancreatic carcinoma,339
+CREON,Death,269
+CREON,Weight decreased,263
+CREON,Chemotherapy,258
+CREON,Abdominal pain upper,186
+CREON,Pain,185
+CREON,Fall,180
+CREON,Pancreatic failure,168
+CREON,Flatulence,163
+CYCLOPHOSPHAMIDE,Drug ineffective,249
+CYCLOPHOSPHAMIDE,Febrile neutropenia,222
+CYCLOPHOSPHAMIDE,Nausea,175
+CYCLOPHOSPHAMIDE,Pyrexia,164
+CYCLOPHOSPHAMIDE,Vomiting,157
+CYCLOPHOSPHAMIDE,Off label use,133
+CYCLOPHOSPHAMIDE,Neutropenia,120
+CYCLOPHOSPHAMIDE,Cytokine release syndrome,118
+CYCLOPHOSPHAMIDE,Myelosuppression,100
+CYCLOPHOSPHAMIDE,Thrombocytopenia,99
+CYCLOSPORINE,Off label use,539
+CYCLOSPORINE,Drug ineffective,466
+CYCLOSPORINE,Product use in unapproved indication,211
+CYCLOSPORINE,Pyrexia,136
+CYCLOSPORINE,Drug ineffective for unapproved indication,131
+CYCLOSPORINE,Drug interaction,109
+CYCLOSPORINE,Acute kidney injury,96
+CYCLOSPORINE,Condition aggravated,94
+CYCLOSPORINE,Renal impairment,92
+CYCLOSPORINE,Treatment failure,84
+DAPAGLIFLOZIN,Death,4225
+DAPAGLIFLOZIN,Cerebrovascular accident,413
+DAPAGLIFLOZIN,Renal impairment,328
+DAPAGLIFLOZIN,Cardiac failure,267
+DAPAGLIFLOZIN,Myocardial infarction,262
+DAPAGLIFLOZIN,Urinary tract infection,223
+DAPAGLIFLOZIN,Diabetes mellitus,204
+DAPAGLIFLOZIN,Product use issue,203
+DAPAGLIFLOZIN,Fall,188
+DAPAGLIFLOZIN,Illness,174
+DAYBUE,Diarrhoea,1699
+DAYBUE,Underdose,858
+DAYBUE,Vomiting,463
+DAYBUE,Product dose omission issue,384
+DAYBUE,Seizure,359
+DAYBUE,Intentional dose omission,279
+DAYBUE,Product use complaint,256
+DAYBUE,Constipation,254
+DAYBUE,Weight decreased,226
+DAYBUE,Decreased appetite,183
+DEPO-PROVERA,Meningioma,1621
+DEPO-PROVERA,Meningioma benign,276
+DEPO-PROVERA,Device leakage,57
+DEPO-PROVERA,Incorrect dose administered by device,47
+DEPO-PROVERA,Off label use,40
+DEPO-PROVERA,Needle issue,34
+DEPO-PROVERA,Device mechanical issue,33
+DEPO-PROVERA,Product administration error,29
+DEPO-PROVERA,Headache,25
+DEPO-PROVERA,Device occlusion,24
+DEXAMETHASONE,Drug ineffective,491
+DEXAMETHASONE,Neutropenia,427
+DEXAMETHASONE,Off label use,392
+DEXAMETHASONE,Thrombocytopenia,245
+DEXAMETHASONE,Plasma cell myeloma,240
+DEXAMETHASONE,Pneumonia,149
+DEXAMETHASONE,Diarrhoea,136
+DEXAMETHASONE,Disease progression,129
+DEXAMETHASONE,Anaemia,126
+DEXAMETHASONE,Condition aggravated,126
+"DEXTROAMPHETAMINE SACCHARATE, AMPHETAMINE ASPARTATE, DEXTROAMPHETAMINE SULFATE AND AMPHETAMINE SULFATE",Drug ineffective,314
+"DEXTROAMPHETAMINE SACCHARATE, AMPHETAMINE ASPARTATE, DEXTROAMPHETAMINE SULFATE AND AMPHETAMINE SULFATE",Drug screen positive,238
+"DEXTROAMPHETAMINE SACCHARATE, AMPHETAMINE ASPARTATE, DEXTROAMPHETAMINE SULFATE AND AMPHETAMINE SULFATE",Product substitution issue,213
+"DEXTROAMPHETAMINE SACCHARATE, AMPHETAMINE ASPARTATE, DEXTROAMPHETAMINE SULFATE AND AMPHETAMINE SULFATE",Impaired driving ability,129
+"DEXTROAMPHETAMINE SACCHARATE, AMPHETAMINE ASPARTATE, DEXTROAMPHETAMINE SULFATE AND AMPHETAMINE SULFATE",Drug abuse,124
+"DEXTROAMPHETAMINE SACCHARATE, AMPHETAMINE ASPARTATE, DEXTROAMPHETAMINE SULFATE AND AMPHETAMINE SULFATE",Drug diversion,123
+"DEXTROAMPHETAMINE SACCHARATE, AMPHETAMINE ASPARTATE, DEXTROAMPHETAMINE SULFATE AND AMPHETAMINE SULFATE",Headache,90
+"DEXTROAMPHETAMINE SACCHARATE, AMPHETAMINE ASPARTATE, DEXTROAMPHETAMINE SULFATE AND AMPHETAMINE SULFATE",Fatigue,79
+"DEXTROAMPHETAMINE SACCHARATE, AMPHETAMINE ASPARTATE, DEXTROAMPHETAMINE SULFATE AND AMPHETAMINE SULFATE",Road traffic accident,79
+"DEXTROAMPHETAMINE SACCHARATE, AMPHETAMINE ASPARTATE, DEXTROAMPHETAMINE SULFATE AND AMPHETAMINE SULFATE",Toxicity to various agents,72
+DIAZEPAM,Drug use disorder,222
+DIAZEPAM,Toxicity to various agents,179
+DIAZEPAM,Substance use disorder,178
+DIAZEPAM,Drug abuse,165
+DIAZEPAM,Coma,128
+DIAZEPAM,Somnolence,104
+DIAZEPAM,Drug dependence,85
+DIAZEPAM,Off label use,74
+DIAZEPAM,Drug ineffective,72
+DIAZEPAM,Intentional product misuse,67
+DICLOFENAC,Off label use,333
+DICLOFENAC,Fatigue,212
+DICLOFENAC,Pain,198
+DICLOFENAC,Joint swelling,187
+DICLOFENAC,Arthralgia,174
+DICLOFENAC,Drug ineffective,172
+DICLOFENAC,Musculoskeletal stiffness,168
+DICLOFENAC,Osteoarthritis,150
+DICLOFENAC,Nausea,148
+DICLOFENAC,Headache,138
+DOCETAXEL,Off label use,145
+DOCETAXEL,Nausea,141
+DOCETAXEL,Drug ineffective,140
+DOCETAXEL,Fatigue,134
+DOCETAXEL,Disease progression,124
+DOCETAXEL,Neutropenia,112
+DOCETAXEL,Vomiting,99
+DOCETAXEL,Back pain,90
+DOCETAXEL,Pleural effusion,90
+DOCETAXEL,Diarrhoea,84
+DOXORUBICIN,Drug ineffective,222
+DOXORUBICIN,Disease progression,175
+DOXORUBICIN,Febrile neutropenia,156
+DOXORUBICIN,Off label use,134
+DOXORUBICIN,Neutropenia,95
+DOXORUBICIN,Cardiotoxicity,62
+DOXORUBICIN,Condition aggravated,61
+DOXORUBICIN,Anaemia,59
+DOXORUBICIN,Neuropathy peripheral,59
+DOXORUBICIN,Pyrexia,58
+DOXYCYCLINE,Drug ineffective,145
+DOXYCYCLINE,Off label use,122
+DOXYCYCLINE,Rash,79
+DOXYCYCLINE,Condition aggravated,78
+DOXYCYCLINE,Vomiting,77
+DOXYCYCLINE,Nausea,73
+DOXYCYCLINE,Gastrointestinal disorder,61
+DOXYCYCLINE,Headache,51
+DOXYCYCLINE,Treatment failure,51
+DOXYCYCLINE,Arthralgia,49
+DUPILUMAB,Pruritus,174
+DUPILUMAB,Injection site pain,137
+DUPILUMAB,Accidental exposure to product,121
+DUPILUMAB,Off label use,120
+DUPILUMAB,Rash,119
+DUPILUMAB,Exposure via skin contact,117
+DUPILUMAB,Dyspnoea,99
+DUPILUMAB,Dermatitis atopic,94
+DUPILUMAB,Product use in unapproved indication,89
+DUPILUMAB,Erythema,85
+DUPIXENT,Pruritus,20633
+DUPIXENT,Dermatitis atopic,18078
+DUPIXENT,Injection site pain,13223
+DUPIXENT,Product use in unapproved indication,12174
+DUPIXENT,Rash,11964
+DUPIXENT,Eczema,10269
+DUPIXENT,Condition aggravated,9278
+DUPIXENT,Drug ineffective,8235
+DUPIXENT,Dry skin,7834
+DUPIXENT,Inappropriate schedule of product administration,7407
+DURVALUMAB,Death,848
+DURVALUMAB,Malignant neoplasm progression,184
+DURVALUMAB,Pyrexia,133
+DURVALUMAB,Neutrophil count decreased,124
+DURVALUMAB,Diarrhoea,113
+DURVALUMAB,Cholangitis,107
+DURVALUMAB,Platelet count decreased,96
+DURVALUMAB,Liver disorder,93
+DURVALUMAB,Anaemia,91
+DURVALUMAB,Rash,83
+ELIGARD,Intercepted product preparation error,1853
+ELIGARD,Syringe issue,929
+ELIGARD,Device leakage,925
+ELIGARD,Injection site pain,864
+ELIGARD,Hot flush,838
+ELIGARD,Death,793
+ELIGARD,Wrong technique in product usage process,650
+ELIGARD,Device occlusion,644
+ELIGARD,Fatigue,480
+ELIGARD,Intentional product use issue,449
+ELIQUIS,Death,802
+ELIQUIS,Off label use,521
+ELIQUIS,Treatment noncompliance,454
+ELIQUIS,Inability to afford medication,325
+ELIQUIS,Hospitalisation,298
+ELIQUIS,Adverse event,224
+ELIQUIS,Cerebrovascular accident,209
+ELIQUIS,Product use issue,209
+ELIQUIS,Haemorrhage,181
+ELIQUIS,Fall,169
+EMGALITY,Injection site pain,1275
+EMGALITY,Incorrect dose administered by device,390
+EMGALITY,Drug dose omission by device,323
+EMGALITY,Migraine,296
+EMGALITY,Injection site haemorrhage,290
+EMGALITY,Underdose,282
+EMGALITY,Headache,212
+EMGALITY,Incorrect dose administered,192
+EMGALITY,Drug ineffective,87
+EMGALITY,Injection site bruising,83
+ENBREL,Drug dose omission by device,351
+ENBREL,Device difficult to use,308
+ENBREL,Therapy interrupted,299
+ENBREL,Drug ineffective,278
+ENBREL,Off label use,233
+ENBREL,Drug hypersensitivity,221
+ENBREL,Pain,207
+ENBREL,Injection site pain,205
+ENBREL,Rheumatoid arthritis,148
+ENBREL,Infection,135
+ENHERTU,Death,333
+ENHERTU,Nausea,263
+ENHERTU,Fatigue,245
+ENHERTU,Interstitial lung disease,224
+ENHERTU,Disease progression,222
+ENHERTU,Asthenia,142
+ENHERTU,Diarrhoea,135
+ENHERTU,Vomiting,132
+ENHERTU,Decreased appetite,112
+ENHERTU,Off label use,95
+ENTRESTO,Hypotension,205
+ENTRESTO,Wrong technique in product usage process,144
+ENTRESTO,Dyspnoea,115
+ENTRESTO,Off label use,114
+ENTRESTO,Dizziness,112
+ENTRESTO,Cardiac failure,101
+ENTRESTO,Fatigue,94
+ENTRESTO,Renal impairment,94
+ENTRESTO,Blood pressure decreased,85
+ENTRESTO,Blood pressure increased,69
+ENTYVIO,Diarrhoea,285
+ENTYVIO,No adverse event,266
+ENTYVIO,Colitis ulcerative,264
+ENTYVIO,Off label use,255
+ENTYVIO,Fatigue,245
+ENTYVIO,Inappropriate schedule of product administration,236
+ENTYVIO,Drug ineffective,175
+ENTYVIO,Abdominal pain,150
+ENTYVIO,Product dose omission issue,149
+ENTYVIO,Nausea,144
+EPIDIOLEX,Hospitalisation,1202
+EPIDIOLEX,Seizure,1166
+EPIDIOLEX,Off label use,610
+EPIDIOLEX,Death,413
+EPIDIOLEX,Somnolence,175
+EPIDIOLEX,Product dose omission issue,169
+EPIDIOLEX,Product administration interrupted,160
+EPIDIOLEX,Diarrhoea,138
+EPIDIOLEX,Emergency care,127
+EPIDIOLEX,Weight decreased,110
+ERLEADA,Rash,190
+ERLEADA,Fatigue,112
+ERLEADA,Death,98
+ERLEADA,Pruritus,66
+ERLEADA,Hot flush,52
+ERLEADA,Decreased appetite,47
+ERLEADA,Off label use,40
+ERLEADA,Diarrhoea,39
+ERLEADA,Prostatic specific antigen increased,38
+ERLEADA,Arthralgia,34
+ESCITALOPRAM,Sexual dysfunction,84
+ESCITALOPRAM,Drug ineffective,78
+ESCITALOPRAM,Toxicity to various agents,75
+ESCITALOPRAM,Fatigue,74
+ESCITALOPRAM,Anxiety,68
+ESCITALOPRAM,Drug interaction,68
+ESCITALOPRAM,Suicide attempt,67
+ESCITALOPRAM,Tremor,66
+ESCITALOPRAM,Suicidal ideation,63
+ESCITALOPRAM,Serotonin syndrome,62
+ESTRADIOL,Device adhesion issue,741
+ESTRADIOL,Product adhesion issue,497
+ESTRADIOL,Circumstance or information capable of leading to medication error,230
+ESTRADIOL,Wrong technique in product usage process,202
+ESTRADIOL,Drug ineffective,179
+ESTRADIOL,Product dose omission issue,168
+ESTRADIOL,No adverse event,158
+ESTRADIOL,Device issue,131
+ESTRADIOL,Off label use,114
+ESTRADIOL,Incorrect dose administered,106
+ESTRADIOL TRANSDERMAL SYSTEM,Product adhesion issue,871
+ESTRADIOL TRANSDERMAL SYSTEM,No adverse event,307
+ESTRADIOL TRANSDERMAL SYSTEM,Product substitution issue,184
+ESTRADIOL TRANSDERMAL SYSTEM,Drug ineffective,141
+ESTRADIOL TRANSDERMAL SYSTEM,Application site erythema,121
+ESTRADIOL TRANSDERMAL SYSTEM,Application site pruritus,113
+ESTRADIOL TRANSDERMAL SYSTEM,Product administered at inappropriate site,98
+ESTRADIOL TRANSDERMAL SYSTEM,Wrong technique in product usage process,98
+ESTRADIOL TRANSDERMAL SYSTEM,Application site rash,74
+ESTRADIOL TRANSDERMAL SYSTEM,Hot flush,74
+ETOPOSIDE,Off label use,403
+ETOPOSIDE,Drug ineffective,169
+ETOPOSIDE,Drug ineffective for unapproved indication,142
+ETOPOSIDE,Febrile neutropenia,125
+ETOPOSIDE,Disease progression,112
+ETOPOSIDE,Neutropenia,80
+ETOPOSIDE,Neoplasm progression,68
+ETOPOSIDE,Thrombocytopenia,63
+ETOPOSIDE,Condition aggravated,44
+ETOPOSIDE,Pancytopenia,42
+EVENITY,Arthralgia,129
+EVENITY,Hospitalisation,119
+EVENITY,Fall,116
+EVENITY,Injection site pain,86
+EVENITY,Headache,78
+EVENITY,Femur fracture,73
+EVENITY,Off label use,68
+EVENITY,Compression fracture,62
+EVENITY,Pain,62
+EVENITY,Pain in extremity,59
+EZETIMIBE,Myalgia,164
+EZETIMIBE,Diarrhoea,90
+EZETIMIBE,Arthralgia,84
+EZETIMIBE,Fatigue,84
+EZETIMIBE,Muscle spasms,82
+EZETIMIBE,Headache,78
+EZETIMIBE,Nausea,77
+EZETIMIBE,Dizziness,54
+EZETIMIBE,Pain in extremity,54
+EZETIMIBE,Drug ineffective,48
+FARXIGA,Death,243
+FARXIGA,Fungal infection,106
+FARXIGA,Product dose omission issue,91
+FARXIGA,Urinary tract infection,79
+FARXIGA,Dizziness,78
+FARXIGA,Blood glucose increased,66
+FARXIGA,Fatigue,61
+FARXIGA,Pollakiuria,54
+FARXIGA,Pruritus,54
+FARXIGA,Weight decreased,52
+FASENRA,Asthma,341
+FASENRA,Product dose omission issue,263
+FASENRA,Dyspnoea,222
+FASENRA,Death,153
+FASENRA,Cough,148
+FASENRA,Device leakage,135
+FASENRA,Inappropriate schedule of product administration,118
+FASENRA,Drug ineffective,111
+FASENRA,Headache,101
+FASENRA,Arthralgia,95
+FENFLURAMINE,Seizure,1421
+FENFLURAMINE,Tricuspid valve incompetence,621
+FENFLURAMINE,Drug ineffective,474
+FENFLURAMINE,Weight decreased,434
+FENFLURAMINE,Decreased appetite,422
+FENFLURAMINE,Mitral valve incompetence,409
+FENFLURAMINE,Somnolence,366
+FENFLURAMINE,Off label use,344
+FENFLURAMINE,Hospitalisation,278
+FENFLURAMINE,Fatigue,271
+FENTANYL,Drug abuse,882
+FENTANYL,Toxicity to various agents,258
+FENTANYL,Overdose,177
+FENTANYL,Death,129
+FENTANYL,Cardiac arrest,109
+FENTANYL,Prescription drug used without a prescription,103
+FENTANYL,Device malfunction,95
+FENTANYL,Drug ineffective,94
+FENTANYL,Respiratory arrest,89
+FENTANYL,Device adhesion issue,85
+FILSPARI,Dizziness,553
+FILSPARI,Fatigue,497
+FILSPARI,Hypotension,471
+FILSPARI,Off label use,247
+FILSPARI,Nausea,244
+FILSPARI,Headache,208
+FILSPARI,Peripheral swelling,206
+FILSPARI,Product use in unapproved indication,206
+FILSPARI,Pruritus,201
+FILSPARI,Glomerular filtration rate decreased,188
+FINASTERIDE,Adverse drug reaction,1761
+FINASTERIDE,Adverse event,453
+FINASTERIDE,Depression,378
+FINASTERIDE,Erectile dysfunction,342
+FINASTERIDE,Suicidal ideation,322
+FINASTERIDE,Anxiety,204
+FINASTERIDE,Loss of libido,170
+FINASTERIDE,Brain fog,147
+FINASTERIDE,Sexual dysfunction,145
+FINASTERIDE,Depressed mood,135
+FINTEPLA,Seizure,799
+FINTEPLA,Tricuspid valve incompetence,572
+FINTEPLA,Mitral valve incompetence,321
+FINTEPLA,Drug ineffective,241
+FINTEPLA,Decreased appetite,205
+FINTEPLA,Weight decreased,205
+FINTEPLA,Off label use,197
+FINTEPLA,Pulmonary valve incompetence,192
+FINTEPLA,Somnolence,186
+FINTEPLA,Aortic valve incompetence,168
+FLUOROURACIL,Diarrhoea,125
+FLUOROURACIL,Nausea,108
+FLUOROURACIL,Neutropenia,103
+FLUOROURACIL,Off label use,102
+FLUOROURACIL,Arteriospasm coronary,96
+FLUOROURACIL,Drug ineffective,92
+FLUOROURACIL,Neuropathy peripheral,88
+FLUOROURACIL,Vomiting,81
+FLUOROURACIL,Febrile neutropenia,69
+FLUOROURACIL,Fatigue,64
+FOSCARBIDOPA\FOSLEVODOPA,On and off phenomenon,480
+FOSCARBIDOPA\FOSLEVODOPA,Fall,403
+FOSCARBIDOPA\FOSLEVODOPA,Hallucination,344
+FOSCARBIDOPA\FOSLEVODOPA,Dyskinesia,244
+FOSCARBIDOPA\FOSLEVODOPA,Death,231
+FOSCARBIDOPA\FOSLEVODOPA,General physical health deterioration,221
+FOSCARBIDOPA\FOSLEVODOPA,Hypokinesia,147
+FOSCARBIDOPA\FOSLEVODOPA,Infusion site erythema,139
+FOSCARBIDOPA\FOSLEVODOPA,Mobility decreased,138
+FOSCARBIDOPA\FOSLEVODOPA,Freezing phenomenon,137
+FRUQUINTINIB,Death,576
+FRUQUINTINIB,Fatigue,499
+FRUQUINTINIB,Colorectal cancer metastatic,393
+FRUQUINTINIB,Diarrhoea,272
+FRUQUINTINIB,Blood pressure increased,269
+FRUQUINTINIB,Asthenia,231
+FRUQUINTINIB,Dysphonia,230
+FRUQUINTINIB,Colon cancer,221
+FRUQUINTINIB,Pain,167
+FRUQUINTINIB,Decreased appetite,166
+FULVESTRANT,Malignant neoplasm progression,265
+FULVESTRANT,Fatigue,195
+FULVESTRANT,Neutropenia,183
+FULVESTRANT,Nausea,173
+FULVESTRANT,Metastases to bone,142
+FULVESTRANT,Diarrhoea,140
+FULVESTRANT,Treatment failure,137
+FULVESTRANT,Off label use,128
+FULVESTRANT,Breast cancer metastatic,113
+FULVESTRANT,Vomiting,113
+FUROSEMIDE,Acute kidney injury,229
+FUROSEMIDE,Drug ineffective,135
+FUROSEMIDE,Condition aggravated,85
+FUROSEMIDE,Hypokalaemia,82
+FUROSEMIDE,Off label use,80
+FUROSEMIDE,Hyponatraemia,64
+FUROSEMIDE,Hypotension,59
+FUROSEMIDE,Drug interaction,58
+FUROSEMIDE,Hypocalcaemia,30
+FUROSEMIDE,Fatigue,29
+GABAPENTIN,Off label use,460
+GABAPENTIN,Drug ineffective,377
+GABAPENTIN,Somnolence,184
+GABAPENTIN,Confusional state,159
+GABAPENTIN,Toxicity to various agents,158
+GABAPENTIN,Dizziness,155
+GABAPENTIN,Nausea,155
+GABAPENTIN,Fatigue,154
+GABAPENTIN,Fall,131
+GABAPENTIN,Pain,123
+GEMCITABINE,Disease progression,204
+GEMCITABINE,Off label use,203
+GEMCITABINE,Drug ineffective,159
+GEMCITABINE,Neutropenia,118
+GEMCITABINE,Thrombocytopenia,116
+GEMCITABINE,Neoplasm progression,99
+GEMCITABINE,Fatigue,77
+GEMCITABINE,Anaemia,70
+GEMCITABINE,Thrombotic microangiopathy,67
+GEMCITABINE,Diarrhoea,63
+GEMTESA,Drug ineffective,288
+GEMTESA,Death,112
+GEMTESA,Therapy interrupted,90
+GEMTESA,Drug effect less than expected,82
+GEMTESA,Therapeutic product effect incomplete,81
+GEMTESA,Urinary retention,78
+GEMTESA,Headache,73
+GEMTESA,Diarrhoea,71
+GEMTESA,Urinary tract infection,60
+GEMTESA,Urinary incontinence,56
+GENOTROPIN,Drug dose omission by device,5805
+GENOTROPIN,Device leakage,3200
+GENOTROPIN,Device mechanical issue,2566
+GENOTROPIN,Device information output issue,2341
+GENOTROPIN,Device breakage,2240
+GENOTROPIN,Device physical property issue,1313
+GENOTROPIN,Device use error,1170
+GENOTROPIN,Device defective,1020
+GENOTROPIN,Wrong technique in device usage process,1018
+GENOTROPIN,Device issue,1016
+GLASSIA,Inappropriate schedule of product administration,1518
+GLASSIA,Blood pressure increased,1054
+GLASSIA,Dyspnoea,839
+GLASSIA,Oxygen saturation decreased,819
+GLASSIA,Pneumonia,800
+GLASSIA,Cough,634
+GLASSIA,Extra dose administered,620
+GLASSIA,Product dose omission issue,579
+GLASSIA,Blood pressure fluctuation,553
+GLASSIA,Fatigue,524
+GUSELKUMAB,Product dose omission issue,642
+GUSELKUMAB,Device deployment issue,510
+GUSELKUMAB,Accidental exposure to product,247
+GUSELKUMAB,Needle issue,229
+GUSELKUMAB,Device issue,148
+GUSELKUMAB,Device defective,131
+GUSELKUMAB,Device leakage,98
+GUSELKUMAB,Incorrect dose administered,53
+GUSELKUMAB,Injection site pain,45
+GUSELKUMAB,Injection site haemorrhage,41
+HEMANGEOL,Off label use,440
+HEMANGEOL,Illness,219
+HEMANGEOL,Inappropriate schedule of product administration,209
+HEMANGEOL,Product administered to patient of inappropriate age,198
+HEMANGEOL,Haemangioma,186
+HEMANGEOL,Condition aggravated,166
+HEMANGEOL,Sleep disorder,118
+HEMANGEOL,Infantile spitting up,93
+HEMANGEOL,Diarrhoea,77
+HEMANGEOL,Pyrexia,70
+HEMLIBRA,Haemorrhage,2665
+HEMLIBRA,Off label use,247
+HEMLIBRA,Fall,228
+HEMLIBRA,Haemarthrosis,133
+HEMLIBRA,Epistaxis,132
+HEMLIBRA,Arthralgia,112
+HEMLIBRA,Head injury,100
+HEMLIBRA,Joint injury,100
+HEMLIBRA,Contusion,95
+HEMLIBRA,Pain,94
+HIZENTRA,Headache,327
+HIZENTRA,Fatigue,318
+HIZENTRA,Infusion site swelling,254
+HIZENTRA,Infusion site erythema,249
+HIZENTRA,Pain,198
+HIZENTRA,Off label use,187
+HIZENTRA,Dyspnoea,173
+HIZENTRA,Pyrexia,160
+HIZENTRA,Decreased appetite,158
+HIZENTRA,Therapy interrupted,158
+HUMALOG,Haemorrhage,1388
+HUMALOG,Blood glucose increased,812
+HUMALOG,Pain,335
+HUMALOG,Discomfort,301
+HUMALOG,Incorrect dose administered,254
+HUMALOG,Blood glucose decreased,218
+HUMALOG,Visual impairment,186
+HUMALOG,Contusion,163
+HUMALOG,Accidental underdose,140
+HUMALOG,Drug ineffective,119
+HUMAN IMMUNOGLOBULIN G,COVID-19,4710
+HUMAN IMMUNOGLOBULIN G,Sinusitis,4669
+HUMAN IMMUNOGLOBULIN G,Fatigue,4505
+HUMAN IMMUNOGLOBULIN G,Headache,4241
+HUMAN IMMUNOGLOBULIN G,Product dose omission issue,4113
+HUMAN IMMUNOGLOBULIN G,Inappropriate schedule of product administration,3853
+HUMAN IMMUNOGLOBULIN G,Pneumonia,3205
+HUMAN IMMUNOGLOBULIN G,Illness,3122
+HUMAN IMMUNOGLOBULIN G,Pain,2999
+HUMAN IMMUNOGLOBULIN G,Nasopharyngitis,2852
+HUMAN IMMUNOGLOBULIN G\HYALURONIDASE RECOMBINANT HUMAN,Inappropriate schedule of product administration,2212
+HUMAN IMMUNOGLOBULIN G\HYALURONIDASE RECOMBINANT HUMAN,Pneumonia,1494
+HUMAN IMMUNOGLOBULIN G\HYALURONIDASE RECOMBINANT HUMAN,COVID-19,1395
+HUMAN IMMUNOGLOBULIN G\HYALURONIDASE RECOMBINANT HUMAN,Sinusitis,1385
+HUMAN IMMUNOGLOBULIN G\HYALURONIDASE RECOMBINANT HUMAN,Infusion site erythema,1384
+HUMAN IMMUNOGLOBULIN G\HYALURONIDASE RECOMBINANT HUMAN,Fatigue,1355
+HUMAN IMMUNOGLOBULIN G\HYALURONIDASE RECOMBINANT HUMAN,Malaise,1288
+HUMAN IMMUNOGLOBULIN G\HYALURONIDASE RECOMBINANT HUMAN,Product dose omission issue,1190
+HUMAN IMMUNOGLOBULIN G\HYALURONIDASE RECOMBINANT HUMAN,Headache,1165
+HUMAN IMMUNOGLOBULIN G\HYALURONIDASE RECOMBINANT HUMAN,Infusion site pain,1111
+HUMIRA,Drug ineffective,765
+HUMIRA,Pain,735
+HUMIRA,Arthralgia,721
+HUMIRA,Death,569
+HUMIRA,Product storage error,521
+HUMIRA,Device issue,495
+HUMIRA,Fall,495
+HUMIRA,Pain in extremity,419
+HUMIRA,Fatigue,408
+HUMIRA,Injection site haemorrhage,402
+HYRIMOZ,Off label use,277
+HYRIMOZ,General physical health deterioration,240
+HYRIMOZ,Product dose omission issue,209
+HYRIMOZ,Device malfunction,179
+HYRIMOZ,Arthralgia,166
+HYRIMOZ,Diarrhoea,153
+HYRIMOZ,Drug ineffective,146
+HYRIMOZ,Fatigue,141
+HYRIMOZ,Crohn's disease,139
+HYRIMOZ,Pain,131
+IBRANCE,Fatigue,1241
+IBRANCE,White blood cell count decreased,899
+IBRANCE,Off label use,673
+IBRANCE,Nausea,561
+IBRANCE,Death,503
+IBRANCE,Alopecia,492
+IBRANCE,Diarrhoea,459
+IBRANCE,Neutropenia,405
+IBRANCE,Malignant neoplasm progression,312
+IBRANCE,Asthenia,262
+IBUPROFEN,Angioedema,423
+IBUPROFEN,Urticaria,245
+IBUPROFEN,Drug ineffective,241
+IBUPROFEN,Intentional overdose,208
+IBUPROFEN,Acute kidney injury,204
+IBUPROFEN,Cross sensitivity reaction,182
+IBUPROFEN,Anaphylactic reaction,169
+IBUPROFEN,Vomiting,166
+IBUPROFEN,Dyspnoea,165
+IBUPROFEN,Drug hypersensitivity,145
+ICATIBANT,Hereditary angioedema,2207
+ICATIBANT,Weight increased,1135
+ICATIBANT,Product use issue,1119
+ICATIBANT,Weight decreased,1114
+ICATIBANT,Treatment noncompliance,994
+ICATIBANT,Stress,894
+ICATIBANT,Product dose omission issue,844
+ICATIBANT,Malaise,832
+ICATIBANT,Inappropriate schedule of product administration,818
+ICATIBANT,Headache,782
+IDURSULFASE,Inappropriate schedule of product administration,2740
+IDURSULFASE,Product dose omission issue,2522
+IDURSULFASE,Pyrexia,2435
+IDURSULFASE,Cough,2043
+IDURSULFASE,Poor venous access,1625
+IDURSULFASE,Malaise,1438
+IDURSULFASE,COVID-19,1427
+IDURSULFASE,Nasopharyngitis,1378
+IDURSULFASE,Weight increased,1323
+IDURSULFASE,Dyspnoea,1270
+IMATINIB,Drug ineffective,191
+IMATINIB,Drug resistance,109
+IMATINIB,Pleural effusion,107
+IMATINIB,Nausea,101
+IMATINIB,Thrombocytopenia,91
+IMATINIB,Toxicity to various agents,82
+IMATINIB,Haematotoxicity,79
+IMATINIB,Malignant neoplasm progression,75
+IMATINIB,Drug intolerance,74
+IMATINIB,Diarrhoea,70
+IMBRUVICA,Death,358
+IMBRUVICA,Off label use,177
+IMBRUVICA,Fatigue,130
+IMBRUVICA,Fall,129
+IMBRUVICA,Atrial fibrillation,126
+IMBRUVICA,Diarrhoea,117
+IMBRUVICA,Pneumonia,105
+IMBRUVICA,Surgery,102
+IMBRUVICA,Asthenia,84
+IMBRUVICA,Nausea,78
+IMFINZI,Death,659
+IMFINZI,Malignant neoplasm progression,188
+IMFINZI,Neutrophil count decreased,130
+IMFINZI,Diarrhoea,95
+IMFINZI,Cytokine release syndrome,93
+IMFINZI,Pyrexia,89
+IMFINZI,Myelosuppression,82
+IMFINZI,Platelet count decreased,79
+IMFINZI,Rash,76
+IMFINZI,Anaemia,75
+INFLECTRA,Off label use,6183
+INFLECTRA,Condition aggravated,3916
+INFLECTRA,Intentional product use issue,1973
+INFLECTRA,Arthralgia,1939
+INFLECTRA,Inappropriate schedule of product administration,1585
+INFLECTRA,Fatigue,838
+INFLECTRA,Blood pressure increased,769
+INFLECTRA,Therapeutic response shortened,766
+INFLECTRA,Weight increased,726
+INFLECTRA,COVID-19,635
+INFLIXIMAB,Off label use,2072
+INFLIXIMAB,Intentional product use issue,1314
+INFLIXIMAB,Condition aggravated,1195
+INFLIXIMAB,Overdose,953
+INFLIXIMAB,Arthralgia,589
+INFLIXIMAB,Inappropriate schedule of product administration,498
+INFLIXIMAB,Drug ineffective,437
+INFLIXIMAB,Crohn's disease,335
+INFLIXIMAB,Underdose,334
+INFLIXIMAB,Fatigue,324
+INVEGA SUSTENNA,Off label use,247
+INVEGA SUSTENNA,Product dose omission issue,153
+INVEGA SUSTENNA,Hospitalisation,86
+INVEGA SUSTENNA,Weight increased,70
+INVEGA SUSTENNA,Schizophrenia,51
+INVEGA SUSTENNA,Tremor,46
+INVEGA SUSTENNA,Drug ineffective,44
+INVEGA SUSTENNA,Incorrect dose administered,42
+INVEGA SUSTENNA,Condition aggravated,38
+INVEGA SUSTENNA,Insomnia,34
+ISOTRETINOIN,Exposure during pregnancy,216
+ISOTRETINOIN,Adverse drug reaction,214
+ISOTRETINOIN,Depression,176
+ISOTRETINOIN,Product use issue,125
+ISOTRETINOIN,Arthralgia,105
+ISOTRETINOIN,Product dose omission issue,105
+ISOTRETINOIN,Dry skin,104
+ISOTRETINOIN,Drug ineffective,95
+ISOTRETINOIN,Mood altered,89
+ISOTRETINOIN,Headache,75
+IXAZOMIB,Diarrhoea,571
+IXAZOMIB,Off label use,424
+IXAZOMIB,Fatigue,423
+IXAZOMIB,Nausea,399
+IXAZOMIB,Product dose omission issue,374
+IXAZOMIB,Peripheral swelling,361
+IXAZOMIB,Neuropathy peripheral,344
+IXAZOMIB,Pneumonia,296
+IXAZOMIB,Death,252
+IXAZOMIB,Vomiting,240
+JAKAFI,Off label use,2372
+JAKAFI,Fatigue,1154
+JAKAFI,Product dose omission issue,867
+JAKAFI,Dizziness,458
+JAKAFI,Product availability issue,405
+JAKAFI,Asthenia,391
+JAKAFI,Pain,379
+JAKAFI,Headache,372
+JAKAFI,Death,369
+JAKAFI,Nausea,353
+JARDIANCE,Urinary tract infection,148
+JARDIANCE,Fungal infection,140
+JARDIANCE,Diabetic ketoacidosis,103
+JARDIANCE,Fournier's gangrene,100
+JARDIANCE,Dizziness,98
+JARDIANCE,Weight decreased,96
+JARDIANCE,Off label use,95
+JARDIANCE,Euglycaemic diabetic ketoacidosis,94
+JARDIANCE,Nausea,92
+JARDIANCE,Blood glucose increased,87
+KEPPRA,Seizure,240
+KEPPRA,Off label use,109
+KEPPRA,Drug ineffective,105
+KEPPRA,Drug hypersensitivity,88
+KEPPRA,Somnolence,66
+KEPPRA,Fatigue,63
+KEPPRA,No adverse event,52
+KEPPRA,Maternal exposure during pregnancy,50
+KEPPRA,Anger,45
+KEPPRA,Dizziness,43
+KESIMPTA,Fatigue,971
+KESIMPTA,Headache,771
+KESIMPTA,Pain,611
+KESIMPTA,Pyrexia,581
+KESIMPTA,Influenza like illness,512
+KESIMPTA,Multiple sclerosis,512
+KESIMPTA,Multiple sclerosis relapse,433
+KESIMPTA,Lower respiratory tract infection,397
+KESIMPTA,Chills,384
+KESIMPTA,Malaise,332
+KEVZARA,Arthralgia,1159
+KEVZARA,Pain,957
+KEVZARA,Drug ineffective,814
+KEVZARA,Joint swelling,723
+KEVZARA,Condition aggravated,621
+KEVZARA,Rheumatoid arthritis,466
+KEVZARA,Loss of personal independence in daily activities,417
+KEVZARA,Product use in unapproved indication,411
+KEVZARA,Gait disturbance,272
+KEVZARA,Fatigue,253
+KEYTRUDA,Malignant neoplasm progression,1272
+KEYTRUDA,Death,555
+KEYTRUDA,Therapy partial responder,455
+KEYTRUDA,Diarrhoea,448
+KEYTRUDA,Inappropriate schedule of product administration,385
+KEYTRUDA,Pyrexia,383
+KEYTRUDA,Rash,361
+KEYTRUDA,Neuropathy peripheral,350
+KEYTRUDA,Malaise,344
+KEYTRUDA,Renal impairment,339
+KISQALI,Neutropenia,590
+KISQALI,Nausea,452
+KISQALI,Fatigue,445
+KISQALI,Decreased immune responsiveness,326
+KISQALI,Vomiting,293
+KISQALI,Asthenia,286
+KISQALI,Malaise,282
+KISQALI,White blood cell count decreased,278
+KISQALI,Pain,267
+KISQALI,Diarrhoea,254
+KISUNLA,Amyloid related imaging abnormality-oedema/effusion,288
+KISUNLA,Amyloid related imaging abnormality-microhaemorrhages and haemosiderin deposits,214
+KISUNLA,Infusion related reaction,193
+KISUNLA,Headache,149
+KISUNLA,Amyloid related imaging abnormalities,102
+KISUNLA,Flushing,98
+KISUNLA,Cerebral haemorrhage,95
+KISUNLA,Dizziness,75
+KISUNLA,Nausea,70
+KISUNLA,Dyspnoea,62
+LAMOTRIGINE,Toxicity to various agents,200
+LAMOTRIGINE,Drug reaction with eosinophilia and systemic symptoms,153
+LAMOTRIGINE,Drug ineffective,140
+LAMOTRIGINE,Rash,122
+LAMOTRIGINE,Seizure,91
+LAMOTRIGINE,Intentional overdose,87
+LAMOTRIGINE,Suicide attempt,86
+LAMOTRIGINE,Off label use,76
+LAMOTRIGINE,Foetal exposure during pregnancy,75
+LAMOTRIGINE,Drug interaction,70
+LANADELUMAB,Hereditary angioedema,2322
+LANADELUMAB,Product dose omission issue,1181
+LANADELUMAB,Weight decreased,1120
+LANADELUMAB,Weight increased,1055
+LANADELUMAB,Inappropriate schedule of product administration,820
+LANADELUMAB,Product use issue,683
+LANADELUMAB,Stress,497
+LANADELUMAB,Insurance issue,477
+LANADELUMAB,COVID-19,460
+LANADELUMAB,Injection site pain,419
+LANTUS,Off label use,620
+LANTUS,Product storage error,133
+LANTUS,Blood glucose increased,120
+LANTUS,Inappropriate schedule of product administration,78
+LANTUS,Product dispensing error,49
+LANTUS,Drug ineffective,40
+LANTUS,Visual impairment,35
+LANTUS,Accidental exposure to product,34
+LANTUS,Exposure via skin contact,34
+LANTUS,Product dispensing issue,34
+LANTUS SOLOSTAR,Off label use,3170
+LANTUS SOLOSTAR,Product storage error,1099
+LANTUS SOLOSTAR,Blood glucose increased,512
+LANTUS SOLOSTAR,Product dispensing error,384
+LANTUS SOLOSTAR,Inappropriate schedule of product administration,368
+LANTUS SOLOSTAR,Accidental exposure to product,234
+LANTUS SOLOSTAR,Exposure via skin contact,230
+LANTUS SOLOSTAR,Visual impairment,226
+LANTUS SOLOSTAR,Product dispensing issue,200
+LANTUS SOLOSTAR,Intentional product misuse,165
+LENALIDOMIDE,Off label use,1245
+LENALIDOMIDE,Diarrhoea,1139
+LENALIDOMIDE,Therapy interrupted,974
+LENALIDOMIDE,Fatigue,968
+LENALIDOMIDE,Product dose omission issue,960
+LENALIDOMIDE,Rash,692
+LENALIDOMIDE,Death,509
+LENALIDOMIDE,Constipation,502
+LENALIDOMIDE,Pneumonia,499
+LENALIDOMIDE,White blood cell count decreased,430
+LENVATINIB,Hypertension,235
+LENVATINIB,Hypothyroidism,161
+LENVATINIB,Diarrhoea,139
+LENVATINIB,Proteinuria,134
+LENVATINIB,Decreased appetite,119
+LENVATINIB,Malaise,116
+LENVATINIB,Adrenal insufficiency,115
+LENVATINIB,Palmar-plantar erythrodysaesthesia syndrome,102
+LENVATINIB,Platelet count decreased,62
+LENVATINIB,Nausea,60
+LENVIMA,Hypertension,509
+LENVIMA,Diarrhoea,420
+LENVIMA,Decreased appetite,370
+LENVIMA,Fatigue,262
+LENVIMA,Nausea,223
+LENVIMA,Interstitial lung disease,222
+LENVIMA,Pyrexia,216
+LENVIMA,Adrenal insufficiency,201
+LENVIMA,Malaise,197
+LENVIMA,Vomiting,181
+LEQEMBI,Amyloid related imaging abnormality-oedema/effusion,274
+LEQEMBI,Amyloid related imaging abnormality-microhaemorrhages and haemosiderin deposits,238
+LEQEMBI,Infusion related reaction,191
+LEQEMBI,Headache,151
+LEQEMBI,Cerebral haemorrhage,88
+LEQEMBI,Cerebral infarction,84
+LEQEMBI,Chills,80
+LEQEMBI,Pyrexia,73
+LEQEMBI,Dizziness,67
+LEQEMBI,Fatigue,66
+LEQVIO,Arthralgia,199
+LEQVIO,Low density lipoprotein increased,132
+LEQVIO,Myalgia,125
+LEQVIO,Injection site pain,103
+LEQVIO,Pain in extremity,100
+LEQVIO,Fatigue,95
+LEQVIO,Drug ineffective,86
+LEQVIO,Injection site reaction,80
+LEQVIO,Product storage error,78
+LEQVIO,Pain,76
+LETROZOLE,Neutropenia,261
+LETROZOLE,Fatigue,198
+LETROZOLE,Malignant neoplasm progression,184
+LETROZOLE,Nausea,140
+LETROZOLE,Diarrhoea,137
+LETROZOLE,Off label use,136
+LETROZOLE,Arthralgia,134
+LETROZOLE,Leukopenia,111
+LETROZOLE,Disease progression,96
+LETROZOLE,Anaemia,92
+LEVETIRACETAM,Drug ineffective,788
+LEVETIRACETAM,Off label use,626
+LEVETIRACETAM,Seizure,524
+LEVETIRACETAM,Maternal exposure during pregnancy,322
+LEVETIRACETAM,Multiple-drug resistance,250
+LEVETIRACETAM,No adverse event,210
+LEVETIRACETAM,Foetal exposure during pregnancy,186
+LEVETIRACETAM,Rhabdomyolysis,164
+LEVETIRACETAM,Epilepsy,157
+LEVETIRACETAM,Aggression,156
+LEVOFLOXACIN,Arthralgia,121
+LEVOFLOXACIN,Drug ineffective,112
+LEVOFLOXACIN,Pain in extremity,105
+LEVOFLOXACIN,Tendon pain,68
+LEVOFLOXACIN,Tendonitis,67
+LEVOFLOXACIN,Fatigue,66
+LEVOFLOXACIN,Myalgia,65
+LEVOFLOXACIN,Dyspnoea,64
+LEVOFLOXACIN,Off label use,62
+LEVOFLOXACIN,Paraesthesia,55
+LINEZOLID,Off label use,174
+LINEZOLID,Thrombocytopenia,148
+LINEZOLID,Lactic acidosis,84
+LINEZOLID,Anaemia,81
+LINEZOLID,Drug interaction,75
+LINEZOLID,Drug ineffective,67
+LINEZOLID,Platelet count decreased,62
+LINEZOLID,Neuropathy peripheral,59
+LINEZOLID,Nausea,56
+LINEZOLID,Myelosuppression,47
+LUMRYZ,Insomnia,339
+LUMRYZ,Somnolence,328
+LUMRYZ,Middle insomnia,319
+LUMRYZ,Product dose omission issue,259
+LUMRYZ,Nausea,251
+LUMRYZ,Fatigue,218
+LUMRYZ,Drug ineffective,191
+LUMRYZ,Initial insomnia,183
+LUMRYZ,Nocturia,147
+LUMRYZ,Intentional dose omission,141
+LUPKYNIS,Product dose omission issue,281
+LUPKYNIS,Therapy interrupted,281
+LUPKYNIS,Hypertension,188
+LUPKYNIS,Headache,164
+LUPKYNIS,Product use issue,164
+LUPKYNIS,Fatigue,162
+LUPKYNIS,Nausea,145
+LUPKYNIS,Proteinuria,144
+LUPKYNIS,Diarrhoea,125
+LUPKYNIS,Blood pressure increased,99
+LYNPARZA,Anaemia,288
+LYNPARZA,Nausea,176
+LYNPARZA,Malignant neoplasm progression,166
+LYNPARZA,Fatigue,144
+LYNPARZA,Death,134
+LYNPARZA,Renal impairment,94
+LYNPARZA,Interstitial lung disease,89
+LYNPARZA,Myelosuppression,86
+LYNPARZA,Malaise,69
+LYNPARZA,Ovarian cancer recurrent,68
+MAVENCLAD,Fatigue,206
+MAVENCLAD,Headache,175
+MAVENCLAD,Pneumonia,153
+MAVENCLAD,Lymphocyte count decreased,132
+MAVENCLAD,Multiple sclerosis relapse,123
+MAVENCLAD,White blood cell count decreased,122
+MAVENCLAD,Lower respiratory tract infection,104
+MAVENCLAD,Multiple sclerosis,103
+MAVENCLAD,Urinary tract infection,103
+MAVENCLAD,Nausea,74
+MEPOLIZUMAB,Asthma,554
+MEPOLIZUMAB,Product dose omission issue,412
+MEPOLIZUMAB,Pneumonia,357
+MEPOLIZUMAB,Inappropriate schedule of product administration,336
+MEPOLIZUMAB,Dyspnoea,297
+MEPOLIZUMAB,Hospitalisation,217
+MEPOLIZUMAB,Cough,189
+MEPOLIZUMAB,Fatigue,149
+MEPOLIZUMAB,Illness,145
+MEPOLIZUMAB,Nasopharyngitis,144
+METFORMIN,Lactic acidosis,1306
+METFORMIN,Acute kidney injury,741
+METFORMIN,Metabolic acidosis,390
+METFORMIN,Diarrhoea,371
+METFORMIN,Toxicity to various agents,347
+METFORMIN,Hypoglycaemia,318
+METFORMIN,Drug ineffective,265
+METFORMIN,Vomiting,241
+METFORMIN,Nausea,219
+METFORMIN,Hyperkalaemia,215
+METHOTREXATE,Drug ineffective,1160
+METHOTREXATE,Off label use,1047
+METHOTREXATE,Pancytopenia,411
+METHOTREXATE,Rheumatoid arthritis,409
+METHOTREXATE,Product use in unapproved indication,407
+METHOTREXATE,Arthralgia,399
+METHOTREXATE,Toxicity to various agents,372
+METHOTREXATE,Nausea,365
+METHOTREXATE,Fatigue,359
+METHOTREXATE,Condition aggravated,357
+METHOTREXATE SODIUM,Off label use,710
+METHOTREXATE SODIUM,Drug ineffective,372
+METHOTREXATE SODIUM,Drug hypersensitivity,350
+METHOTREXATE SODIUM,Condition aggravated,242
+METHOTREXATE SODIUM,Nausea,184
+METHOTREXATE SODIUM,Arthralgia,150
+METHOTREXATE SODIUM,Fatigue,137
+METHOTREXATE SODIUM,Rheumatoid arthritis,129
+METHOTREXATE SODIUM,Vomiting,126
+METHOTREXATE SODIUM,Drug ineffective for unapproved indication,121
+METRONIDAZOLE,Drug ineffective,94
+METRONIDAZOLE,Neurotoxicity,82
+METRONIDAZOLE,Off label use,76
+METRONIDAZOLE,Dizziness,61
+METRONIDAZOLE,Nausea,61
+METRONIDAZOLE,Toxic encephalopathy,57
+METRONIDAZOLE,Product use in unapproved indication,55
+METRONIDAZOLE,Neuropathy peripheral,49
+METRONIDAZOLE,Condition aggravated,43
+METRONIDAZOLE,Toxicity to various agents,43
+MINOXIDIL,Adverse drug reaction,629
+MINOXIDIL,Drug ineffective,129
+MINOXIDIL,Application site pruritus,117
+MINOXIDIL,Product administered at inappropriate site,93
+MINOXIDIL,Inappropriate schedule of product administration,86
+MINOXIDIL,Product use issue,78
+MINOXIDIL,Application site pain,73
+MINOXIDIL,Application site irritation,68
+MINOXIDIL,Condition aggravated,63
+MINOXIDIL,Incorrect dose administered,43
+MIRALAX,Product prescribing issue,567
+MIRALAX,Drug ineffective,280
+MIRALAX,Incorrect dose administered,144
+MIRALAX,Product use issue,137
+MIRALAX,Diarrhoea,107
+MIRALAX,Product use in unapproved indication,106
+MIRALAX,Extra dose administered,65
+MIRALAX,Incorrect product administration duration,53
+MIRALAX,Expired product administered,48
+MIRALAX,Wrong technique in product usage process,36
+MIRENA,Device expulsion,821
+MIRENA,Device dislocation,728
+MIRENA,Genital haemorrhage,373
+MIRENA,Abdominal pain lower,249
+MIRENA,Complication of device insertion,245
+MIRENA,Device breakage,147
+MIRENA,Procedural pain,146
+MIRENA,Device use issue,128
+MIRENA,Complication of device removal,127
+MIRENA,Embedded device,113
+MIRTAZAPINE,Toxicity to various agents,108
+MIRTAZAPINE,Dizziness,86
+MIRTAZAPINE,Somnolence,86
+MIRTAZAPINE,Drug interaction,79
+MIRTAZAPINE,Drug ineffective,78
+MIRTAZAPINE,Off label use,70
+MIRTAZAPINE,Coma,68
+MIRTAZAPINE,Fatigue,68
+MIRTAZAPINE,Medication error,68
+MIRTAZAPINE,Product use in unapproved indication,63
+MOUNJARO,Incorrect dose administered,4685
+MOUNJARO,Nausea,2774
+MOUNJARO,Injection site pain,2319
+MOUNJARO,Diarrhoea,1980
+MOUNJARO,Vomiting,1808
+MOUNJARO,Extra dose administered,1694
+MOUNJARO,Off label use,1318
+MOUNJARO,Constipation,1163
+MOUNJARO,Product dose omission issue,1050
+MOUNJARO,Abdominal pain,912
+MYCOPHENOLATE MOFETIL,Off label use,1232
+MYCOPHENOLATE MOFETIL,Drug ineffective,737
+MYCOPHENOLATE MOFETIL,Drug ineffective for unapproved indication,320
+MYCOPHENOLATE MOFETIL,Product use in unapproved indication,287
+MYCOPHENOLATE MOFETIL,Pneumonia,218
+MYCOPHENOLATE MOFETIL,Cytomegalovirus infection,215
+MYCOPHENOLATE MOFETIL,COVID-19,184
+MYCOPHENOLATE MOFETIL,Septic shock,181
+MYCOPHENOLATE MOFETIL,Acute kidney injury,178
+MYCOPHENOLATE MOFETIL,Diarrhoea,172
+NEMLUVIO,Product dose omission issue,1761
+NEMLUVIO,Inappropriate schedule of product administration,1392
+NEMLUVIO,Device malfunction,1290
+NEMLUVIO,Incorrect dose administered,811
+NEMLUVIO,Pruritus,650
+NEMLUVIO,Rash,431
+NEMLUVIO,Drug ineffective,324
+NEMLUVIO,Headache,275
+NEMLUVIO,Device use issue,210
+NEMLUVIO,Dermatitis atopic,201
+NEULASTA,Device adhesion issue,690
+NEULASTA,Unintentional medical device removal,279
+NEULASTA,Drug dose omission by device,251
+NEULASTA,Device issue,210
+NEULASTA,Device malfunction,202
+NEULASTA,Intercepted product preparation error,174
+NEULASTA,Device occlusion,171
+NEULASTA,Accidental exposure to product,143
+NEULASTA,Product preparation error,121
+NEULASTA,Device use error,111
+NEXPLANON,Vaginal haemorrhage,383
+NEXPLANON,Pregnancy with implant contraceptive,346
+NEXPLANON,Unintended pregnancy,345
+NEXPLANON,Heavy menstrual bleeding,298
+NEXPLANON,Incorrect product administration duration,157
+NEXPLANON,Complication associated with device,156
+NEXPLANON,Menometrorrhagia,125
+NEXPLANON,Product use issue,98
+NEXPLANON,Complication of device removal,78
+NEXPLANON,Amenorrhoea,66
+NIVOLUMAB,Off label use,135
+NIVOLUMAB,Malignant neoplasm progression,100
+NIVOLUMAB,Diarrhoea,95
+NIVOLUMAB,Immune-mediated enterocolitis,76
+NIVOLUMAB,Death,54
+NIVOLUMAB,Hypothyroidism,52
+NIVOLUMAB,Asthenia,51
+NIVOLUMAB,Pruritus,50
+NIVOLUMAB,Fatigue,44
+NIVOLUMAB,Decreased appetite,41
+NOVOLOG,Blood glucose increased,227
+NOVOLOG,Visual impairment,85
+NOVOLOG,Cerebrovascular accident,64
+NOVOLOG,Product quality issue,63
+NOVOLOG,Blood glucose decreased,59
+NOVOLOG,Fall,49
+NOVOLOG,Drug ineffective,45
+NOVOLOG,Blindness,42
+NOVOLOG,Cataract,40
+NOVOLOG,Hospitalisation,36
+NUCALA,Product dose omission issue,1518
+NUCALA,Off label use,1175
+NUCALA,Asthma,710
+NUCALA,Accidental exposure to product,410
+NUCALA,Product complaint,395
+NUCALA,Dyspnoea,371
+NUCALA,Wrong technique in device usage process,333
+NUCALA,Drug ineffective,310
+NUCALA,Exposure via skin contact,307
+NUCALA,Cough,194
+NUPLAZID,Hallucination,2484
+NUPLAZID,Death,1775
+NUPLAZID,Drug ineffective,1073
+NUPLAZID,Product use issue,931
+NUPLAZID,Product dose omission issue,907
+NUPLAZID,Confusional state,694
+NUPLAZID,Fall,647
+NUPLAZID,Condition aggravated,608
+NUPLAZID,"Hallucination, visual",525
+NUPLAZID,Delusion,479
+OCREVUS,Fatigue,813
+OCREVUS,COVID-19,569
+OCREVUS,Multiple sclerosis,452
+OCREVUS,Headache,389
+OCREVUS,Nasopharyngitis,319
+OCREVUS,Gait disturbance,316
+OCREVUS,Off label use,294
+OCREVUS,Infusion related reaction,289
+OCREVUS,Drug ineffective,259
+OCREVUS,Pain,252
+OFEV,Diarrhoea,2138
+OFEV,Nausea,860
+OFEV,Weight decreased,621
+OFEV,Decreased appetite,582
+OFEV,Fatigue,527
+OFEV,Dyspnoea,510
+OFEV,Cough,478
+OFEV,Vomiting,448
+OFEV,Constipation,421
+OFEV,Abdominal pain upper,376
+OLANZAPINE,Off label use,306
+OLANZAPINE,Drug ineffective,300
+OLANZAPINE,Somnolence,183
+OLANZAPINE,Weight increased,178
+OLANZAPINE,Toxicity to various agents,177
+OLANZAPINE,Neuroleptic malignant syndrome,147
+OLANZAPINE,Condition aggravated,131
+OLANZAPINE,Suicide attempt,126
+OLANZAPINE,Drug interaction,107
+OLANZAPINE,Intentional overdose,97
+OLAPARIB,Death,661
+OLAPARIB,Fatigue,400
+OLAPARIB,Neuropathy peripheral,373
+OLAPARIB,Nausea,299
+OLAPARIB,Asthenia,166
+OLAPARIB,Product dose omission issue,149
+OLAPARIB,Anaemia,135
+OLAPARIB,Diarrhoea,122
+OLAPARIB,Renal impairment,104
+OLAPARIB,Haemoglobin decreased,100
+OMALIZUMAB,Urticaria,607
+OMALIZUMAB,Asthma,448
+OMALIZUMAB,Dyspnoea,437
+OMALIZUMAB,Pruritus,398
+OMALIZUMAB,Cough,389
+OMALIZUMAB,Weight decreased,310
+OMALIZUMAB,Malaise,293
+OMALIZUMAB,Nasopharyngitis,293
+OMALIZUMAB,Fatigue,290
+OMALIZUMAB,Wheezing,282
+OMEPRAZOLE,Hypomagnesaemia,140
+OMEPRAZOLE,Drug ineffective,131
+OMEPRAZOLE,Nausea,93
+OMEPRAZOLE,Hypocalcaemia,89
+OMEPRAZOLE,Drug interaction,84
+OMEPRAZOLE,Diarrhoea,80
+OMEPRAZOLE,Acute kidney injury,77
+OMEPRAZOLE,Off label use,75
+OMEPRAZOLE,Vomiting,71
+OMEPRAZOLE,Hypokalaemia,68
+OMNITROPE,Device breakage,1089
+OMNITROPE,Device leakage,666
+OMNITROPE,Circumstance or information capable of leading to medication error,651
+OMNITROPE,Circumstance or information capable of leading to device use error,517
+OMNITROPE,Incorrect dose administered by device,484
+OMNITROPE,Drug dose omission by device,394
+OMNITROPE,Injection site pain,393
+OMNITROPE,Device issue,348
+OMNITROPE,Device mechanical issue,286
+OMNITROPE,Incorrect dose administered,233
+OPDIVO,Death,375
+OPDIVO,Off label use,329
+OPDIVO,Diarrhoea,225
+OPDIVO,Malignant neoplasm progression,216
+OPDIVO,Fatigue,154
+OPDIVO,Decreased appetite,136
+OPDIVO,Nausea,117
+OPDIVO,Rash,114
+OPDIVO,Fulminant type 1 diabetes mellitus,93
+OPDIVO,Pyrexia,91
+OPSUMIT,Death,229
+OPSUMIT,Dyspnoea,160
+OPSUMIT,Hospitalisation,153
+OPSUMIT,Product dose omission issue,126
+OPSUMIT,Headache,101
+OPSUMIT,Pneumonia,99
+OPSUMIT,Peripheral swelling,90
+OPSUMIT,Diarrhoea,84
+OPSUMIT,Fatigue,77
+OPSUMIT,Dizziness,75
+OPZELURA,Off label use,396
+OPZELURA,Product availability issue,213
+OPZELURA,Product dose omission issue,147
+OPZELURA,Product physical consistency issue,122
+OPZELURA,Dermatitis atopic,91
+OPZELURA,Drug ineffective,78
+OPZELURA,Drug effective for unapproved indication,76
+OPZELURA,Product physical issue,67
+OPZELURA,Vitiligo,56
+OPZELURA,Product packaging quantity issue,43
+ORENCIA,Arthralgia,2632
+ORENCIA,Joint swelling,2330
+ORENCIA,Rheumatoid arthritis,1232
+ORENCIA,Pain,1156
+ORENCIA,General physical health deterioration,671
+ORENCIA,Drug ineffective,654
+ORENCIA,Adverse event,637
+ORENCIA,Hospitalisation,521
+ORENCIA,Off label use,487
+ORENCIA,Death,409
+ORENITRAM,Headache,1197
+ORENITRAM,Diarrhoea,1196
+ORENITRAM,Nausea,971
+ORENITRAM,Fatigue,751
+ORENITRAM,Dyspnoea,663
+ORENITRAM,Dizziness,523
+ORENITRAM,Therapy non-responder,495
+ORENITRAM,Pain,437
+ORENITRAM,Pain in extremity,436
+ORENITRAM,Vomiting,426
+ORGOVYX,Hot flush,7743
+ORGOVYX,Fatigue,6010
+ORGOVYX,Asthenia,1895
+ORGOVYX,Incorrect dose administered,1865
+ORGOVYX,Arthralgia,1551
+ORGOVYX,Diarrhoea,1487
+ORGOVYX,Product dose omission issue,1312
+ORGOVYX,Dizziness,1146
+ORGOVYX,Constipation,999
+ORGOVYX,Pain,899
+OSIMERTINIB,Death,1612
+OSIMERTINIB,Malignant neoplasm progression,307
+OSIMERTINIB,Diarrhoea,233
+OSIMERTINIB,Fatigue,187
+OSIMERTINIB,Asthenia,161
+OSIMERTINIB,Drug resistance,149
+OSIMERTINIB,Decreased appetite,138
+OSIMERTINIB,Dyspnoea,125
+OSIMERTINIB,Rash,122
+OSIMERTINIB,Acquired gene mutation,120
+OTEZLA,Therapy non-responder,707
+OTEZLA,Pain,613
+OTEZLA,Product dose omission issue,545
+OTEZLA,Diarrhoea,477
+OTEZLA,Psoriasis,453
+OTEZLA,Nausea,407
+OTEZLA,Headache,317
+OTEZLA,Therapy interrupted,284
+OTEZLA,Psoriatic arthropathy,230
+OTEZLA,Rash,207
+OXALIPLATIN,Off label use,278
+OXALIPLATIN,Diarrhoea,244
+OXALIPLATIN,Nausea,213
+OXALIPLATIN,Neuropathy peripheral,211
+OXALIPLATIN,Disease progression,165
+OXALIPLATIN,Dyspnoea,165
+OXALIPLATIN,Drug ineffective,160
+OXALIPLATIN,Neutropenia,148
+OXALIPLATIN,Thrombocytopenia,135
+OXALIPLATIN,Vomiting,135
+OXERVATE,Eye pain,1770
+OXERVATE,Eye irritation,605
+OXERVATE,Product dose omission issue,435
+OXERVATE,Photophobia,358
+OXERVATE,Ocular hyperaemia,353
+OXERVATE,Vision blurred,300
+OXERVATE,Eye swelling,277
+OXERVATE,Off label use,270
+OXERVATE,Ocular discomfort,266
+OXERVATE,Headache,246
+OXYCODONE HYDROCHLORIDE,Drug diversion,470
+OXYCODONE HYDROCHLORIDE,Drug abuse,153
+OXYCODONE HYDROCHLORIDE,Toxicity to various agents,140
+OXYCODONE HYDROCHLORIDE,Drug dependence,130
+OXYCODONE HYDROCHLORIDE,Drug ineffective,117
+OXYCODONE HYDROCHLORIDE,Product counterfeit,106
+OXYCODONE HYDROCHLORIDE,Overdose,104
+OXYCODONE HYDROCHLORIDE,Pain,97
+OXYCODONE HYDROCHLORIDE,Vomiting,92
+OXYCODONE HYDROCHLORIDE,Nausea,90
+OXYCONTIN,Drug dependence,701
+OXYCONTIN,Overdose,318
+OXYCONTIN,Pain,185
+OXYCONTIN,Emotional distress,176
+OXYCONTIN,Drug abuse,159
+OXYCONTIN,Impaired quality of life,154
+OXYCONTIN,Drug withdrawal syndrome,152
+OXYCONTIN,Anxiety,95
+OXYCONTIN,Depression,94
+OXYCONTIN,Mental disorder,81
+OZEMPIC,Off label use,2274
+OZEMPIC,Nausea,2200
+OZEMPIC,Impaired gastric emptying,1529
+OZEMPIC,Decreased appetite,1426
+OZEMPIC,Vomiting,1365
+OZEMPIC,Constipation,1354
+OZEMPIC,Diarrhoea,1324
+OZEMPIC,Wrong technique in product usage process,1273
+OZEMPIC,Product use in unapproved indication,1100
+OZEMPIC,Weight decreased,932
+PACLITAXEL,Dyspnoea,214
+PACLITAXEL,Off label use,205
+PACLITAXEL,Neutropenia,199
+PACLITAXEL,Nausea,154
+PACLITAXEL,Chest discomfort,133
+PACLITAXEL,Asthenia,132
+PACLITAXEL,Erythema,132
+PACLITAXEL,Flushing,119
+PACLITAXEL,Neuropathy peripheral,114
+PACLITAXEL,Back pain,111
+PADCEV,Rash,298
+PADCEV,Fatigue,192
+PADCEV,Malignant neoplasm progression,189
+PADCEV,Neuropathy peripheral,185
+PADCEV,Pruritus,170
+PADCEV,Off label use,165
+PADCEV,Death,141
+PADCEV,Diarrhoea,136
+PADCEV,Skin disorder,128
+PADCEV,Decreased appetite,116
+PALYNZIQ,Arthralgia,239
+PALYNZIQ,Injection site reaction,133
+PALYNZIQ,Maternal exposure during pregnancy,127
+PALYNZIQ,Urticaria,117
+PALYNZIQ,Off label use,115
+PALYNZIQ,Rash,100
+PALYNZIQ,Injection site erythema,95
+PALYNZIQ,Hypersensitivity,83
+PALYNZIQ,Anaphylactic reaction,82
+PALYNZIQ,Injection site swelling,81
+PANTOPRAZOLE,Drug ineffective,144
+PANTOPRAZOLE,Off label use,144
+PANTOPRAZOLE,Hypomagnesaemia,123
+PANTOPRAZOLE,Acute kidney injury,96
+PANTOPRAZOLE,Dyspnoea,93
+PANTOPRAZOLE,Hypocalcaemia,91
+PANTOPRAZOLE,Fatigue,90
+PANTOPRAZOLE,Diarrhoea,75
+PANTOPRAZOLE,Nausea,75
+PANTOPRAZOLE,Hyponatraemia,70
+PARAGARD T 380A,Complication of device removal,2777
+PARAGARD T 380A,Device breakage,2740
+PARAGARD T 380A,Foreign body in reproductive tract,2429
+PARAGARD T 380A,Reproductive complication associated with device,1817
+PARAGARD T 380A,Pain,1403
+PARAGARD T 380A,Emotional distress,1181
+PARAGARD T 380A,Embedded device,1135
+PARAGARD T 380A,Anxiety,943
+PARAGARD T 380A,Abnormal uterine bleeding,775
+PARAGARD T 380A,Emotional disorder,771
+PAXLOVID,COVID-19,745
+PAXLOVID,Disease recurrence,688
+PAXLOVID,Dysgeusia,292
+PAXLOVID,Off label use,180
+PAXLOVID,Product prescribing error,161
+PAXLOVID,Diarrhoea,131
+PAXLOVID,Incorrect dose administered,114
+PAXLOVID,Therapeutic product effect incomplete,98
+PAXLOVID,Nausea,90
+PAXLOVID,Product use issue,90
+PEMBROLIZUMAB,Malignant neoplasm progression,303
+PEMBROLIZUMAB,Therapy partial responder,154
+PEMBROLIZUMAB,Inappropriate schedule of product administration,136
+PEMBROLIZUMAB,Diarrhoea,132
+PEMBROLIZUMAB,Off label use,131
+PEMBROLIZUMAB,Product use issue,129
+PEMBROLIZUMAB,Product use in unapproved indication,126
+PEMBROLIZUMAB,Death,123
+PEMBROLIZUMAB,Fatigue,100
+PEMBROLIZUMAB,Neutropenia,93
+PEMETREXED,Anaemia,84
+PEMETREXED,Malignant neoplasm progression,83
+PEMETREXED,Pancytopenia,72
+PEMETREXED,Acute kidney injury,66
+PEMETREXED,Neutropenia,60
+PEMETREXED,Thrombocytopenia,56
+PEMETREXED,Diarrhoea,54
+PEMETREXED,Off label use,50
+PEMETREXED,Drug ineffective,48
+PEMETREXED,Nausea,47
+PLUVICTO,General physical health deterioration,2618
+PLUVICTO,Death,242
+PLUVICTO,Ill-defined disorder,105
+PLUVICTO,Malignant neoplasm progression,92
+PLUVICTO,Disease progression,88
+PLUVICTO,Prostatic specific antigen increased,85
+PLUVICTO,Fatigue,79
+PLUVICTO,Illness,65
+PLUVICTO,Anaemia,61
+PLUVICTO,Nausea,59
+POMALYST,Fatigue,1227
+POMALYST,Off label use,724
+POMALYST,Product dose omission issue,718
+POMALYST,Diarrhoea,574
+POMALYST,Death,501
+POMALYST,White blood cell count decreased,492
+POMALYST,Rash,482
+POMALYST,Constipation,442
+POMALYST,Therapy interrupted,422
+POMALYST,Hospitalisation,392
+PONATINIB,Product dose omission issue,1411
+PONATINIB,Off label use,842
+PONATINIB,Product use issue,674
+PONATINIB,Fatigue,434
+PONATINIB,Rash,408
+PONATINIB,Dry skin,355
+PONATINIB,Blood pressure increased,331
+PONATINIB,Arthralgia,330
+PONATINIB,Headache,313
+PONATINIB,Nausea,309
+PREDNISOLONE,Off label use,603
+PREDNISOLONE,Drug ineffective,333
+PREDNISOLONE,Condition aggravated,156
+PREDNISOLONE,Drug ineffective for unapproved indication,124
+PREDNISOLONE,Immunosuppression,72
+PREDNISOLONE,Rebound effect,72
+PREDNISOLONE,Disease progression,63
+PREDNISOLONE,Therapy non-responder,59
+PREDNISOLONE,Headache,57
+PREDNISOLONE,Neutropenia,57
+PREDNISONE,Off label use,1219
+PREDNISONE,Drug ineffective,935
+PREDNISONE,Condition aggravated,310
+PREDNISONE,Death,271
+PREDNISONE,Drug ineffective for unapproved indication,213
+PREDNISONE,Rebound effect,199
+PREDNISONE,Drug effective for unapproved indication,192
+PREDNISONE,Pneumonia,182
+PREDNISONE,Acute kidney injury,170
+PREDNISONE,Respiratory failure,149
+PREGABALIN,Drug abuse,422
+PREGABALIN,Drug use disorder,379
+PREGABALIN,Toxicity to various agents,330
+PREGABALIN,Drug dependence,320
+PREGABALIN,Drug ineffective,277
+PREGABALIN,Somnolence,271
+PREGABALIN,Substance use disorder,241
+PREGABALIN,Off label use,208
+PREGABALIN,Dizziness,193
+PREGABALIN,Anxiety,182
+PROLIA,Death,503
+PROLIA,Spinal fracture,173
+PROLIA,Arthralgia,151
+PROLIA,Fall,122
+PROLIA,Osteonecrosis of jaw,114
+PROLIA,Hypocalcaemia,104
+PROLIA,Off label use,103
+PROLIA,Hospitalisation,94
+PROLIA,Pain in extremity,91
+PROLIA,Back pain,82
+QINLOCK,Fatigue,228
+QINLOCK,Alopecia,213
+QINLOCK,Inappropriate schedule of product administration,206
+QINLOCK,Product use in unapproved indication,156
+QINLOCK,Underdose,136
+QINLOCK,Malignant neoplasm progression,126
+QINLOCK,Pain,112
+QINLOCK,Incorrect dosage administered,110
+QINLOCK,Muscle spasms,101
+QINLOCK,Asthenia,99
+QSYMIA,Inappropriate schedule of product administration,66
+QSYMIA,Headache,54
+QSYMIA,Feeling abnormal,46
+QSYMIA,Anxiety,43
+QSYMIA,Dizziness,40
+QSYMIA,Dry mouth,39
+QSYMIA,Nausea,39
+QSYMIA,Insomnia,38
+QSYMIA,Hypertension,34
+QSYMIA,Product dose omission issue,33
+QUETIAPINE,Toxicity to various agents,273
+QUETIAPINE,Suicide attempt,186
+QUETIAPINE,Somnolence,184
+QUETIAPINE,Intentional overdose,177
+QUETIAPINE,Off label use,159
+QUETIAPINE,Drug ineffective,142
+QUETIAPINE,Drug interaction,126
+QUETIAPINE,Overdose,126
+QUETIAPINE,Coma,109
+QUETIAPINE,Hypotension,99
+QUETIAPINE FUMARATE,Off label use,225
+QUETIAPINE FUMARATE,Toxicity to various agents,146
+QUETIAPINE FUMARATE,Drug ineffective,137
+QUETIAPINE FUMARATE,Intentional overdose,104
+QUETIAPINE FUMARATE,Drug interaction,95
+QUETIAPINE FUMARATE,Overdose,91
+QUETIAPINE FUMARATE,Somnolence,87
+QUETIAPINE FUMARATE,Suicide attempt,86
+QUETIAPINE FUMARATE,Hypertension,84
+QUETIAPINE FUMARATE,Headache,82
+RAMIPRIL,Recalled product administered,997
+RAMIPRIL,No adverse event,970
+RAMIPRIL,Cough,63
+RAMIPRIL,Acute kidney injury,59
+RAMIPRIL,Fatigue,53
+RAMIPRIL,Dizziness,52
+RAMIPRIL,Drug ineffective,52
+RAMIPRIL,Blood pressure increased,51
+RAMIPRIL,Angioedema,49
+RAMIPRIL,Hypotension,49
+REMICADE,Off label use,1035
+REMICADE,Crohn's disease,534
+REMICADE,Drug ineffective,350
+REMICADE,Colitis ulcerative,306
+REMICADE,Infusion related reaction,269
+REMICADE,Influenza,266
+REMICADE,Fatigue,263
+REMICADE,Product dose omission issue,234
+REMICADE,Abdominal pain,206
+REMICADE,COVID-19,202
+REMODULIN,Infusion site pain,1433
+REMODULIN,Headache,1049
+REMODULIN,Dyspnoea,1006
+REMODULIN,Nausea,861
+REMODULIN,Diarrhoea,832
+REMODULIN,Infusion site erythema,804
+REMODULIN,Device issue,794
+REMODULIN,Fatigue,705
+REMODULIN,Device occlusion,620
+REMODULIN,Device infusion issue,586
+REPATHA,Device difficult to use,2808
+REPATHA,Drug dose omission by device,1732
+REPATHA,Injection site pain,833
+REPATHA,Wrong technique in product usage process,737
+REPATHA,Accidental exposure to product,614
+REPATHA,Injection site haemorrhage,368
+REPATHA,Injection site bruising,341
+REPATHA,Therapy interrupted,340
+REPATHA,Product communication issue,315
+REPATHA,Myalgia,247
+REVLIMID,Diarrhoea,1950
+REVLIMID,Off label use,1858
+REVLIMID,Fatigue,1721
+REVLIMID,Product dose omission issue,1376
+REVLIMID,Rash,1015
+REVLIMID,Therapy interrupted,812
+REVLIMID,Constipation,755
+REVLIMID,Death,672
+REVLIMID,Neuropathy peripheral,596
+REVLIMID,White blood cell count decreased,582
+RILPIVIRINE,Injection site pain,153
+RILPIVIRINE,Product dose omission issue,148
+RILPIVIRINE,Product use in unapproved therapeutic environment,132
+RILPIVIRINE,Off label use,124
+RILPIVIRINE,Viral load increased,108
+RILPIVIRINE,Virologic failure,93
+RILPIVIRINE,Pathogen resistance,73
+RILPIVIRINE,Pain,64
+RILPIVIRINE,Blood HIV RNA increased,56
+RILPIVIRINE,Exposure during pregnancy,55
+RINVOQ,Arthralgia,999
+RINVOQ,Pain,898
+RINVOQ,Fall,697
+RINVOQ,Surgery,661
+RINVOQ,Pain in extremity,549
+RINVOQ,Fatigue,521
+RINVOQ,Drug ineffective,519
+RINVOQ,Death,453
+RINVOQ,Diarrhoea,428
+RINVOQ,Rheumatoid arthritis,413
+RISANKIZUMAB,Product storage error,545
+RISANKIZUMAB,Product temperature excursion issue,120
+RISANKIZUMAB,Psoriasis,59
+RISANKIZUMAB,Crohn's disease,44
+RISANKIZUMAB,Off label use,44
+RISANKIZUMAB,Product quality issue,44
+RISANKIZUMAB,Drug ineffective,42
+RISANKIZUMAB,Arthralgia,40
+RISANKIZUMAB,Device issue,29
+RISANKIZUMAB,Rash,28
+RISPERDAL,Gynaecomastia,344
+RISPERDAL,Off label use,319
+RISPERDAL,Weight increased,166
+RISPERDAL,Emotional disorder,123
+RISPERDAL,Drug ineffective,99
+RISPERDAL,Somnolence,61
+RISPERDAL,Blood prolactin increased,46
+RISPERDAL,Obesity,43
+RISPERDAL,Increased appetite,42
+RISPERDAL,Product use in unapproved indication,39
+RISPERIDONE,Extrapyramidal disorder,120
+RISPERIDONE,Drug ineffective,92
+RISPERIDONE,Drug interaction,77
+RISPERIDONE,Off label use,76
+RISPERIDONE,Accidental overdose,70
+RISPERIDONE,Weight increased,63
+RISPERIDONE,Somnolence,61
+RISPERIDONE,Medication error,59
+RISPERIDONE,Condition aggravated,52
+RISPERIDONE,Neuroleptic malignant syndrome,49
+RITUXIMAB,Off label use,3281
+RITUXIMAB,Intentional product use issue,1611
+RITUXIMAB,Pneumonia,1033
+RITUXIMAB,Fatigue,746
+RITUXIMAB,Drug ineffective,697
+RITUXIMAB,COVID-19,657
+RITUXIMAB,Headache,621
+RITUXIMAB,Pain,611
+RITUXIMAB,Nausea,593
+RITUXIMAB,Pyrexia,591
+ROSUVASTATIN,Rhabdomyolysis,303
+ROSUVASTATIN,Myalgia,269
+ROSUVASTATIN,Acute kidney injury,220
+ROSUVASTATIN,Drug interaction,186
+ROSUVASTATIN,Muscle spasms,177
+ROSUVASTATIN,Arthralgia,119
+ROSUVASTATIN,Dyspnoea,98
+ROSUVASTATIN,Nausea,92
+ROSUVASTATIN,Vomiting,85
+ROSUVASTATIN,Dizziness,79
+RUCONEST,Intentional product use issue,191
+RUCONEST,Weight fluctuation,153
+RUCONEST,Condition aggravated,123
+RUCONEST,Drug ineffective,82
+RUCONEST,Underdose,76
+RUCONEST,Product use in unapproved indication,68
+RUCONEST,Weight decreased,58
+RUCONEST,Vascular access site complication,55
+RUCONEST,Weight increased,53
+RUCONEST,Maternal exposure during pregnancy,36
+RUXIENCE,Off label use,1320
+RUXIENCE,Condition aggravated,438
+RUXIENCE,Intentional product use issue,288
+RUXIENCE,Inappropriate schedule of product administration,185
+RUXIENCE,Fatigue,175
+RUXIENCE,Headache,154
+RUXIENCE,Throat irritation,153
+RUXIENCE,Pneumonia,151
+RUXIENCE,Nausea,150
+RUXIENCE,Dyspnoea,141
+RUXOLITINIB,Platelet count decreased,298
+RUXOLITINIB,Haemoglobin decreased,285
+RUXOLITINIB,Off label use,269
+RUXOLITINIB,Splenomegaly,203
+RUXOLITINIB,Anaemia,171
+RUXOLITINIB,Fatigue,168
+RUXOLITINIB,Pyrexia,148
+RUXOLITINIB,Asthenia,144
+RUXOLITINIB,Platelet count increased,143
+RUXOLITINIB,Malaise,130
+RYBELSUS,Nausea,164
+RYBELSUS,Vomiting,120
+RYBELSUS,Off label use,119
+RYBELSUS,Decreased appetite,96
+RYBELSUS,Diarrhoea,91
+RYBELSUS,Impaired gastric emptying,78
+RYBELSUS,Constipation,76
+RYBELSUS,Weight decreased,71
+RYBELSUS,Dizziness,60
+RYBELSUS,Product use in unapproved indication,58
+RYBREVANT,Infusion related reaction,356
+RYBREVANT,Rash,218
+RYBREVANT,Off label use,159
+RYBREVANT,Paronychia,68
+RYBREVANT,Fatigue,53
+RYBREVANT,Skin toxicity,50
+RYBREVANT,Myelosuppression,48
+RYBREVANT,Drug intolerance,43
+RYBREVANT,Dyspnoea,42
+RYBREVANT,Non-small cell lung cancer,39
+SERTRALINE,Abnormal dreams,293
+SERTRALINE,Nightmare,241
+SERTRALINE,Drug ineffective,160
+SERTRALINE,Intentional overdose,159
+SERTRALINE,Toxicity to various agents,145
+SERTRALINE,Anxiety,130
+SERTRALINE,Drug interaction,130
+SERTRALINE,Foetal exposure during pregnancy,128
+SERTRALINE,Fatigue,127
+SERTRALINE,Dizziness,124
+SIMPONI,Product dose omission issue,1294
+SIMPONI,Device issue,917
+SIMPONI,Device deployment issue,666
+SIMPONI,Pneumonia,564
+SIMPONI,Off label use,373
+SIMPONI,Rheumatoid arthritis,296
+SIMPONI,Device defective,265
+SIMPONI,Accidental exposure to product,248
+SIMPONI,Lower respiratory tract infection,214
+SIMPONI,Influenza,200
+SKYRIZI,Psoriasis,1214
+SKYRIZI,Arthralgia,940
+SKYRIZI,Device issue,913
+SKYRIZI,Pain,879
+SKYRIZI,Crohn's disease,852
+SKYRIZI,Surgery,826
+SKYRIZI,Fall,814
+SKYRIZI,Fatigue,785
+SKYRIZI,Diarrhoea,774
+SKYRIZI,Drug ineffective,722
+SLYND,Intermenstrual bleeding,457
+SLYND,Amenorrhoea,222
+SLYND,Heavy menstrual bleeding,167
+SLYND,Dysmenorrhoea,96
+SLYND,Abnormal withdrawal bleeding,62
+SLYND,Product prescribing issue,56
+SLYND,Product use in unapproved indication,53
+SLYND,Intentional dose omission,50
+SLYND,Product dose omission issue,50
+SLYND,Wrong technique in product usage process,48
+SOLIRIS,Death,385
+SOLIRIS,Off label use,213
+SOLIRIS,Fatigue,168
+SOLIRIS,Asthenia,144
+SOLIRIS,Haemolysis,129
+SOLIRIS,Dyspnoea,126
+SOLIRIS,Headache,118
+SOLIRIS,Drug ineffective,112
+SOLIRIS,Pyrexia,110
+SOLIRIS,Haemoglobin decreased,103
+SPRAVATO,Dissociation,2042
+SPRAVATO,Sedation,1662
+SPRAVATO,Suicidal ideation,337
+SPRAVATO,Hypertension,303
+SPRAVATO,Hospitalisation,266
+SPRAVATO,Drug ineffective,264
+SPRAVATO,Product dose omission issue,262
+SPRAVATO,Nausea,241
+SPRAVATO,Dizziness,195
+SPRAVATO,Depression,193
+STELARA,Product dose omission issue,1599
+STELARA,Device issue,691
+STELARA,Device defective,657
+STELARA,Off label use,484
+STELARA,Needle issue,374
+STELARA,Syringe issue,281
+STELARA,Device deployment issue,214
+STELARA,Drug ineffective,204
+STELARA,Accidental exposure to product,198
+STELARA,Crohn's disease,186
+STRENSIQ,Fatigue,304
+STRENSIQ,Injection site pain,237
+STRENSIQ,Pain,234
+STRENSIQ,Arthralgia,228
+STRENSIQ,Pain in extremity,142
+STRENSIQ,Injection site erythema,129
+STRENSIQ,Headache,123
+STRENSIQ,Injection site reaction,122
+STRENSIQ,Bone pain,101
+STRENSIQ,Back pain,99
+SYMBICORT,Asthma,714
+SYMBICORT,Dyspnoea,523
+SYMBICORT,Product dose omission issue,409
+SYMBICORT,Device delivery system issue,367
+SYMBICORT,Device malfunction,293
+SYMBICORT,Cough,243
+SYMBICORT,Wrong technique in device usage process,233
+SYMBICORT,Drug ineffective,232
+SYMBICORT,Wheezing,225
+SYMBICORT,Device use issue,220
+SYNTHROID,Death,150
+SYNTHROID,Drug ineffective,108
+SYNTHROID,Fatigue,75
+SYNTHROID,Alopecia,56
+SYNTHROID,Neoplasm malignant,53
+SYNTHROID,Adverse drug reaction,47
+SYNTHROID,Drug hypersensitivity,45
+SYNTHROID,Off label use,44
+SYNTHROID,Malaise,43
+SYNTHROID,Weight increased,39
+TACROLIMUS,Off label use,805
+TACROLIMUS,Drug ineffective,473
+TACROLIMUS,Drug interaction,335
+TACROLIMUS,Toxicity to various agents,299
+TACROLIMUS,Acute kidney injury,282
+TACROLIMUS,Product use in unapproved indication,212
+TACROLIMUS,Immunosuppressant drug level increased,172
+TACROLIMUS,Drug ineffective for unapproved indication,165
+TACROLIMUS,COVID-19,161
+TACROLIMUS,Death,160
+TADALAFIL,Headache,157
+TADALAFIL,Dyspnoea,144
+TADALAFIL,Diarrhoea,87
+TADALAFIL,Drug ineffective,78
+TADALAFIL,Dizziness,75
+TADALAFIL,Death,74
+TADALAFIL,Cough,69
+TADALAFIL,Nausea,62
+TADALAFIL,Cardiac failure,61
+TADALAFIL,Hypotension,57
+TAGRISSO,Death,334
+TAGRISSO,Malignant neoplasm progression,228
+TAGRISSO,Myelosuppression,155
+TAGRISSO,Diarrhoea,151
+TAGRISSO,Disease progression,109
+TAGRISSO,Rash,95
+TAGRISSO,Fatigue,90
+TAGRISSO,Off label use,74
+TAGRISSO,Decreased appetite,65
+TAGRISSO,Nausea,65
+TALTZ,Psoriasis,361
+TALTZ,Incorrect dose administered,258
+TALTZ,Injection site reaction,196
+TALTZ,Drug ineffective,188
+TALTZ,Injection site pain,145
+TALTZ,Injection site erythema,114
+TALTZ,Product dose omission issue,113
+TALTZ,Psoriatic arthropathy,95
+TALTZ,Inappropriate schedule of product administration,86
+TALTZ,Injection site swelling,69
+TAVALISSE,Product dose omission issue,188
+TAVALISSE,Platelet count decreased,160
+TAVALISSE,Diarrhoea,158
+TAVALISSE,Off label use,138
+TAVALISSE,Hospitalisation,131
+TAVALISSE,Product prescribing issue,97
+TAVALISSE,Blood pressure increased,86
+TAVALISSE,Platelet count,77
+TAVALISSE,Death,62
+TAVALISSE,Fatigue,49
+TAVNEOS,Hospitalisation,331
+TAVNEOS,Death,129
+TAVNEOS,Therapy interrupted,102
+TAVNEOS,Pneumonia,80
+TAVNEOS,Liver disorder,70
+TAVNEOS,Drug-induced liver injury,50
+TAVNEOS,Off label use,49
+TAVNEOS,Hepatic function abnormal,43
+TAVNEOS,Dialysis,41
+TAVNEOS,Vanishing bile duct syndrome,40
+TECENTRIQ,Death,470
+TECENTRIQ,Off label use,224
+TECENTRIQ,Disease progression,195
+TECENTRIQ,Pyrexia,94
+TECENTRIQ,Asthenia,84
+TECENTRIQ,Interstitial lung disease,73
+TECENTRIQ,Platelet count decreased,66
+TECENTRIQ,Decreased appetite,59
+TECENTRIQ,Cytokine release syndrome,53
+TECENTRIQ,Liver disorder,51
+TECFIDERA,Multiple sclerosis relapse,181
+TECFIDERA,Flushing,171
+TECFIDERA,Multiple sclerosis,124
+TECFIDERA,Gastrointestinal disorder,100
+TECFIDERA,Drug ineffective,75
+TECFIDERA,Nausea,66
+TECFIDERA,Treatment failure,58
+TECFIDERA,Abdominal discomfort,55
+TECFIDERA,Diarrhoea,48
+TECFIDERA,Fatigue,47
+TEDUGLUTIDE,Product dose omission issue,3824
+TEDUGLUTIDE,Weight decreased,3782
+TEDUGLUTIDE,Diarrhoea,3515
+TEDUGLUTIDE,Weight increased,2865
+TEDUGLUTIDE,Nausea,2273
+TEDUGLUTIDE,Vascular device infection,2263
+TEDUGLUTIDE,Decreased appetite,2234
+TEDUGLUTIDE,Abdominal pain,2179
+TEDUGLUTIDE,Vomiting,2085
+TEDUGLUTIDE,Dehydration,1955
+TERIPARATIDE,Product dose omission issue,197
+TERIPARATIDE,Device malfunction,177
+TERIPARATIDE,Device operational issue,145
+TERIPARATIDE,Dizziness,96
+TERIPARATIDE,Nausea,91
+TERIPARATIDE,Arthralgia,85
+TERIPARATIDE,Fatigue,81
+TERIPARATIDE,Wrong technique in product usage process,74
+TERIPARATIDE,Headache,71
+TERIPARATIDE,Device issue,58
+TEZEPELUMAB,Asthma,274
+TEZEPELUMAB,Dyspnoea,249
+TEZEPELUMAB,Pneumonia,232
+TEZEPELUMAB,Death,180
+TEZEPELUMAB,Cough,165
+TEZEPELUMAB,Drug ineffective,118
+TEZEPELUMAB,Wheezing,102
+TEZEPELUMAB,Fall,87
+TEZEPELUMAB,Hypertension,78
+TEZEPELUMAB,Fatigue,72
+TEZSPIRE,Asthma,369
+TEZSPIRE,Dyspnoea,226
+TEZSPIRE,Arthralgia,202
+TEZSPIRE,Product dose omission issue,143
+TEZSPIRE,Drug ineffective,120
+TEZSPIRE,Pneumonia,113
+TEZSPIRE,Pain,107
+TEZSPIRE,Device leakage,105
+TEZSPIRE,Cough,99
+TEZSPIRE,Back pain,90
+TISLELIZUMAB,Myelosuppression,3023
+TISLELIZUMAB,Hepatic function abnormal,271
+TISLELIZUMAB,Liver injury,225
+TISLELIZUMAB,White blood cell count decreased,189
+TISLELIZUMAB,Pruritus,174
+TISLELIZUMAB,Nausea,157
+TISLELIZUMAB,Pyrexia,146
+TISLELIZUMAB,Asthenia,144
+TISLELIZUMAB,Interstitial lung disease,144
+TISLELIZUMAB,Platelet count decreased,141
+TOLVAPTAN,Product dose omission issue,540
+TOLVAPTAN,Thirst,401
+TOLVAPTAN,Pollakiuria,282
+TOLVAPTAN,No adverse event,263
+TOLVAPTAN,Fatigue,168
+TOLVAPTAN,Product use issue,158
+TOLVAPTAN,Polyuria,154
+TOLVAPTAN,Underdose,149
+TOLVAPTAN,Renal impairment,147
+TOLVAPTAN,Death,122
+TOUJEO,Off label use,420
+TOUJEO,Product storage error,142
+TOUJEO,Blood glucose increased,105
+TOUJEO,Product dispensing error,59
+TOUJEO,Inappropriate schedule of product administration,46
+TOUJEO,Intentional product misuse,40
+TOUJEO,Drug ineffective,37
+TOUJEO,Accidental exposure to product,33
+TOUJEO,Exposure via skin contact,33
+TOUJEO,Visual impairment,28
+TRAMADOL,Drug use disorder,311
+TRAMADOL,Drug dependence,188
+TRAMADOL,Drug abuse,180
+TRAMADOL,Death,172
+TRAMADOL,Toxicity to various agents,150
+TRAMADOL,Somnolence,123
+TRAMADOL,Vomiting,110
+TRAMADOL,Intentional product misuse,99
+TRAMADOL,Substance use disorder,80
+TRAMADOL,Poisoning deliberate,79
+TRASTUZUMAB,Off label use,390
+TRASTUZUMAB,Myelosuppression,361
+TRASTUZUMAB,Diarrhoea,198
+TRASTUZUMAB,Nausea,147
+TRASTUZUMAB,Intentional product use issue,110
+TRASTUZUMAB,Malignant neoplasm progression,108
+TRASTUZUMAB,Fatigue,107
+TRASTUZUMAB,Metastases to central nervous system,99
+TRASTUZUMAB,Disease progression,95
+TRASTUZUMAB,Vomiting,90
+TRELEGY ELLIPTA,Wrong technique in device usage process,656
+TRELEGY ELLIPTA,Product complaint,595
+TRELEGY ELLIPTA,Product dose omission issue,393
+TRELEGY ELLIPTA,Dyspnoea,348
+TRELEGY ELLIPTA,Drug ineffective,346
+TRELEGY ELLIPTA,Incorrect dose administered,199
+TRELEGY ELLIPTA,Off label use,174
+TRELEGY ELLIPTA,Cough,157
+TRELEGY ELLIPTA,Dysphonia,129
+TRELEGY ELLIPTA,Pneumonia,109
+TREMFYA,Product dose omission issue,2076
+TREMFYA,Accidental exposure to product,699
+TREMFYA,Device deployment issue,456
+TREMFYA,Needle issue,443
+TREMFYA,Device issue,421
+TREMFYA,Device defective,328
+TREMFYA,Product storage error,324
+TREMFYA,Off label use,259
+TREMFYA,Device leakage,243
+TREMFYA,Pneumonia,232
+TREPROSTINIL,Dyspnoea,668
+TREPROSTINIL,Headache,538
+TREPROSTINIL,Cough,480
+TREPROSTINIL,Diarrhoea,443
+TREPROSTINIL,Dizziness,354
+TREPROSTINIL,Fatigue,308
+TREPROSTINIL,Nausea,306
+TREPROSTINIL,Oxygen saturation decreased,289
+TREPROSTINIL,Hypotension,281
+TREPROSTINIL,Vomiting,224
+TRIKAFTA,Anxiety,185
+TRIKAFTA,Mental disorder,143
+TRIKAFTA,Brain fog,136
+TRIKAFTA,Depression,124
+TRIKAFTA,Fatigue,121
+TRIKAFTA,Weight increased,94
+TRIKAFTA,Insomnia,83
+TRIKAFTA,Infective pulmonary exacerbation of cystic fibrosis,77
+TRIKAFTA,Feeling abnormal,70
+TRIKAFTA,Hospitalisation,67
+TRULICITY,Nausea,1187
+TRULICITY,Vomiting,1147
+TRULICITY,Impaired gastric emptying,1000
+TRULICITY,Abdominal pain,806
+TRULICITY,Diarrhoea,766
+TRULICITY,Constipation,507
+TRULICITY,Injection site pain,501
+TRULICITY,Incorrect dose administered,493
+TRULICITY,Blood glucose increased,355
+TRULICITY,Drug ineffective,285
+TRUVADA,Bone density decreased,1019
+TRUVADA,Renal failure,667
+TRUVADA,Tooth loss,598
+TRUVADA,Bone loss,522
+TRUVADA,Chronic kidney disease,515
+TRUVADA,Osteonecrosis,510
+TRUVADA,Multiple fractures,289
+TRUVADA,Osteoporosis,249
+TRUVADA,Osteopenia,196
+TRUVADA,Acute kidney injury,185
+TYLENOL,Exposure during pregnancy,2480
+TYLENOL,Autism spectrum disorder,964
+TYLENOL,Foetal exposure during pregnancy,897
+TYLENOL,Drug ineffective,441
+TYLENOL,Product use in unapproved indication,138
+TYLENOL,Therapeutic product effect incomplete,128
+TYLENOL,Adverse event,121
+TYLENOL,Ill-defined disorder,112
+TYLENOL,Incorrect dose administered,89
+TYLENOL,Attention deficit hyperactivity disorder,77
+TYMLOS,Headache,1193
+TYMLOS,Dizziness,970
+TYMLOS,Fatigue,873
+TYMLOS,Nausea,865
+TYMLOS,Arthralgia,679
+TYMLOS,Heart rate increased,677
+TYMLOS,Loss of personal independence in daily activities,645
+TYMLOS,Product dose omission issue,586
+TYMLOS,Bone pain,534
+TYMLOS,Palpitations,460
+TYSABRI,Prescribed underdose,494
+TYSABRI,Multiple sclerosis relapse,468
+TYSABRI,Multiple sclerosis,418
+TYSABRI,Fatigue,363
+TYSABRI,Headache,209
+TYSABRI,Maternal exposure during pregnancy,190
+TYSABRI,Memory impairment,181
+TYSABRI,Malaise,172
+TYSABRI,Product dose omission issue,164
+TYSABRI,Fall,163
+TYVASO,Cough,1952
+TYVASO,Dyspnoea,1442
+TYVASO,Headache,1087
+TYVASO,Dizziness,822
+TYVASO,Fatigue,797
+TYVASO,Diarrhoea,773
+TYVASO,Nausea,692
+TYVASO,Throat irritation,686
+TYVASO,Oxygen saturation decreased,631
+TYVASO,Productive cough,496
+TYVASO DPI,Cough,3296
+TYVASO DPI,Dyspnoea,1998
+TYVASO DPI,Headache,1890
+TYVASO DPI,Diarrhoea,1277
+TYVASO DPI,Dizziness,1253
+TYVASO DPI,Fatigue,1116
+TYVASO DPI,Nausea,968
+TYVASO DPI,Throat irritation,863
+TYVASO DPI,Oxygen saturation decreased,846
+TYVASO DPI,Productive cough,788
+UBLITUXIMAB,Infusion related reaction,468
+UBLITUXIMAB,Fatigue,91
+UBLITUXIMAB,Pain,71
+UBLITUXIMAB,Multiple sclerosis relapse,57
+UBLITUXIMAB,Illness,53
+UBLITUXIMAB,Malaise,51
+UBLITUXIMAB,Drug ineffective,40
+UBLITUXIMAB,Headache,38
+UBLITUXIMAB,Maternal exposure during pregnancy,38
+UBLITUXIMAB,Nasopharyngitis,38
+ULTOMIRIS,Fatigue,627
+ULTOMIRIS,Death,381
+ULTOMIRIS,Myasthenia gravis,370
+ULTOMIRIS,Asthenia,362
+ULTOMIRIS,Drug ineffective,262
+ULTOMIRIS,Headache,261
+ULTOMIRIS,Haemoglobin decreased,231
+ULTOMIRIS,Dyspnoea,220
+ULTOMIRIS,Pneumonia,212
+ULTOMIRIS,Malaise,188
+UPADACITINIB,Off label use,81
+UPADACITINIB,Drug ineffective,51
+UPADACITINIB,Acne,47
+UPADACITINIB,Product residue present,38
+UPADACITINIB,Herpes zoster,32
+UPADACITINIB,Crohn's disease,30
+UPADACITINIB,Colitis ulcerative,28
+UPADACITINIB,Product storage error,28
+UPADACITINIB,Fatigue,24
+UPADACITINIB,Pain,24
+VABYSMO,Off label use,452
+VABYSMO,Retinal thickening,354
+VABYSMO,Optical coherence tomography abnormal,225
+VABYSMO,Visual impairment,175
+VABYSMO,Death,167
+VABYSMO,No adverse event,118
+VABYSMO,Eye inflammation,96
+VABYSMO,Blindness,84
+VABYSMO,Visual acuity reduced,74
+VABYSMO,Visual acuity tests abnormal,72
+VANCOMYCIN,Drug ineffective,420
+VANCOMYCIN,Acute kidney injury,221
+VANCOMYCIN,Drug reaction with eosinophilia and systemic symptoms,140
+VANCOMYCIN,Off label use,131
+VANCOMYCIN,Condition aggravated,82
+VANCOMYCIN,Renal tubular necrosis,66
+VANCOMYCIN,Rash,61
+VANCOMYCIN,Tubulointerstitial nephritis,61
+VANCOMYCIN,Nephropathy toxic,55
+VANCOMYCIN,Drug ineffective for unapproved indication,51
+VEDOLIZUMAB,Off label use,31994
+VEDOLIZUMAB,Colitis ulcerative,18991
+VEDOLIZUMAB,Diarrhoea,18473
+VEDOLIZUMAB,Crohn's disease,17242
+VEDOLIZUMAB,Abdominal pain,16447
+VEDOLIZUMAB,Haematochezia,11189
+VEDOLIZUMAB,Frequent bowel movements,10348
+VEDOLIZUMAB,Fatigue,10325
+VEDOLIZUMAB,Malaise,8591
+VEDOLIZUMAB,Drug ineffective,8084
+VELAGLUCERASE ALFA,Inappropriate schedule of product administration,1781
+VELAGLUCERASE ALFA,Product dose omission issue,1254
+VELAGLUCERASE ALFA,Fatigue,1063
+VELAGLUCERASE ALFA,Weight increased,989
+VELAGLUCERASE ALFA,Bone pain,982
+VELAGLUCERASE ALFA,Nausea,928
+VELAGLUCERASE ALFA,COVID-19,918
+VELAGLUCERASE ALFA,Blood pressure increased,894
+VELAGLUCERASE ALFA,Abdominal pain,882
+VELAGLUCERASE ALFA,Weight decreased,738
+VENCLEXTA,Death,917
+VENCLEXTA,Platelet count decreased,276
+VENCLEXTA,Fatigue,256
+VENCLEXTA,Off label use,245
+VENCLEXTA,White blood cell count decreased,203
+VENCLEXTA,Diarrhoea,185
+VENCLEXTA,Nausea,179
+VENCLEXTA,Haemoglobin decreased,170
+VENCLEXTA,Pneumonia,155
+VENCLEXTA,Asthenia,151
+VENETOCLAX,Neutropenia,646
+VENETOCLAX,Myelosuppression,576
+VENETOCLAX,Thrombocytopenia,397
+VENETOCLAX,Anaemia,341
+VENETOCLAX,Pyrexia,186
+VENETOCLAX,Death,171
+VENETOCLAX,Febrile neutropenia,154
+VENETOCLAX,Leukopenia,131
+VENETOCLAX,Infection,123
+VENETOCLAX,Off label use,115
+VENLAFAXINE,Toxicity to various agents,189
+VENLAFAXINE,Foetal exposure during pregnancy,130
+VENLAFAXINE,Drug interaction,117
+VENLAFAXINE,Suicide attempt,111
+VENLAFAXINE,Overdose,92
+VENLAFAXINE,Drug ineffective,87
+VENLAFAXINE,Coma,84
+VENLAFAXINE,Serotonin syndrome,79
+VENLAFAXINE,Somnolence,77
+VENLAFAXINE,Drug abuse,74
+VERZENIO,Diarrhoea,1387
+VERZENIO,Fatigue,677
+VERZENIO,Nausea,526
+VERZENIO,Product dose omission issue,249
+VERZENIO,Vomiting,208
+VERZENIO,Decreased appetite,203
+VERZENIO,Abdominal pain upper,193
+VERZENIO,Constipation,193
+VERZENIO,Asthenia,187
+VERZENIO,Headache,159
+VEVYE,Eye irritation,751
+VEVYE,Drug ineffective,410
+VEVYE,Eye pain,295
+VEVYE,Ocular hyperaemia,167
+VEVYE,Vision blurred,160
+VEVYE,Eye pruritus,131
+VEVYE,Dry eye,93
+VEVYE,Lacrimation increased,79
+VEVYE,Ocular discomfort,69
+VEVYE,Headache,63
+VOLTAREN ARTHRITIS PAIN,Product use in unapproved indication,934
+VOLTAREN ARTHRITIS PAIN,Drug effective for unapproved indication,896
+VOLTAREN ARTHRITIS PAIN,Product administered at inappropriate site,449
+VOLTAREN ARTHRITIS PAIN,Drug ineffective,341
+VOLTAREN ARTHRITIS PAIN,Product use issue,122
+VOLTAREN ARTHRITIS PAIN,Drug effect less than expected,82
+VOLTAREN ARTHRITIS PAIN,Inappropriate schedule of product administration,65
+VOLTAREN ARTHRITIS PAIN,Off label use,60
+VOLTAREN ARTHRITIS PAIN,Drug ineffective for unapproved indication,40
+VOLTAREN ARTHRITIS PAIN,Therapeutic product effect incomplete,39
+VOQUEZNA,Gastrooesophageal reflux disease,139
+VOQUEZNA,Drug ineffective,136
+VOQUEZNA,Nausea,116
+VOQUEZNA,Diarrhoea,92
+VOQUEZNA,Off label use,88
+VOQUEZNA,Abdominal pain upper,87
+VOQUEZNA,Headache,77
+VOQUEZNA,Product dose omission issue,77
+VOQUEZNA,Dyspepsia,71
+VOQUEZNA,Dizziness,62
+VUMERITY,Flushing,408
+VUMERITY,Multiple sclerosis,320
+VUMERITY,Product dose omission issue,245
+VUMERITY,Multiple sclerosis relapse,210
+VUMERITY,Fatigue,188
+VUMERITY,Diarrhoea,186
+VUMERITY,Pruritus,180
+VUMERITY,Fall,172
+VUMERITY,Product dose omission in error,171
+VUMERITY,Nausea,163
+VYALEV,Infusion site reaction,177
+VYALEV,Fall,151
+VYALEV,Malaise,140
+VYALEV,On and off phenomenon,133
+VYALEV,Infusion site pain,119
+VYALEV,Infusion site erythema,114
+VYALEV,Hallucination,110
+VYALEV,Dyskinesia,105
+VYALEV,Device issue,101
+VYALEV,Infusion site infection,96
+VYEPTI,Drug ineffective,362
+VYEPTI,Migraine,291
+VYEPTI,Therapeutic response shortened,163
+VYEPTI,Headache,160
+VYEPTI,Drug effect less than expected,133
+VYEPTI,Nausea,129
+VYEPTI,Throat irritation,116
+VYEPTI,Fatigue,104
+VYEPTI,Pruritus,100
+VYEPTI,Dizziness,88
+VYNDAMAX,Death,495
+VYNDAMAX,Dyspnoea,179
+VYNDAMAX,Fatigue,141
+VYNDAMAX,Fall,104
+VYNDAMAX,Dizziness,90
+VYNDAMAX,Cardiac failure,88
+VYNDAMAX,Asthenia,80
+VYNDAMAX,Peripheral swelling,75
+VYNDAMAX,Cardiac disorder,72
+VYNDAMAX,Atrial fibrillation,70
+WEGOVY,Nausea,756
+WEGOVY,Vomiting,468
+WEGOVY,Diarrhoea,329
+WEGOVY,Off label use,329
+WEGOVY,Constipation,316
+WEGOVY,Weight increased,273
+WEGOVY,Weight loss poor,237
+WEGOVY,Inappropriate schedule of product administration,235
+WEGOVY,Decreased appetite,231
+WEGOVY,Fatigue,225
+WINREVAIR,Epistaxis,167
+WINREVAIR,Headache,150
+WINREVAIR,Haemoglobin increased,99
+WINREVAIR,Diarrhoea,97
+WINREVAIR,Dizziness,77
+WINREVAIR,Pericardial effusion,76
+WINREVAIR,Fatigue,72
+WINREVAIR,Nausea,71
+WINREVAIR,Dyspnoea,70
+WINREVAIR,No adverse event,68
+XARELTO,Product dose omission issue,107
+XARELTO,Product prescribing issue,64
+XARELTO,Dizziness,61
+XARELTO,Epistaxis,55
+XARELTO,Headache,55
+XARELTO,Anaemia,54
+XARELTO,Thrombosis,50
+XARELTO,Atrial fibrillation,49
+XARELTO,Inappropriate schedule of product administration,48
+XARELTO,Haemorrhage,45
+XCOPRI,Seizure,873
+XCOPRI,Product dose omission issue,809
+XCOPRI,Product use issue,216
+XCOPRI,Off label use,196
+XCOPRI,Somnolence,162
+XCOPRI,Fatigue,161
+XCOPRI,Fall,137
+XCOPRI,Dizziness,132
+XCOPRI,Wrong technique in product usage process,117
+XCOPRI,Headache,88
+XDEMVY,Eye irritation,167
+XDEMVY,Product use issue,128
+XDEMVY,Ocular hyperaemia,118
+XDEMVY,Therapy interrupted,102
+XDEMVY,Vision blurred,97
+XDEMVY,Off label use,96
+XDEMVY,Condition aggravated,95
+XDEMVY,Wrong technique in product usage process,92
+XDEMVY,Eye pain,90
+XDEMVY,Drug ineffective,85
+XELJANZ,Condition aggravated,540
+XELJANZ,Off label use,509
+XELJANZ,Pain,348
+XELJANZ,Drug ineffective,289
+XELJANZ,Illness,270
+XELJANZ,Product dose omission in error,218
+XELJANZ,Headache,185
+XELJANZ,Intentional product misuse,179
+XELJANZ,Arthralgia,177
+XELJANZ,Nasopharyngitis,173
+XELJANZ XR,Condition aggravated,988
+XELJANZ XR,Pain,901
+XELJANZ XR,Drug ineffective,575
+XELJANZ XR,Illness,555
+XELJANZ XR,Arthralgia,485
+XELJANZ XR,Product dose omission in error,422
+XELJANZ XR,COVID-19,381
+XELJANZ XR,Malaise,378
+XELJANZ XR,Pain in extremity,377
+XELJANZ XR,Nasopharyngitis,343
+XOLAIR,No adverse event,1277
+XOLAIR,Urticaria,1059
+XOLAIR,Off label use,1040
+XOLAIR,Product dose omission issue,577
+XOLAIR,Drug ineffective,475
+XOLAIR,Asthma,455
+XOLAIR,Pruritus,421
+XOLAIR,Dyspnoea,393
+XOLAIR,Cough,372
+XOLAIR,Anaphylactic reaction,354
+XOLAIR PFS,Off label use,678
+XOLAIR PFS,No adverse event,561
+XOLAIR PFS,Urticaria,491
+XOLAIR PFS,Drug ineffective,215
+XOLAIR PFS,Anaphylactic reaction,190
+XOLAIR PFS,Idiopathic urticaria,186
+XOLAIR PFS,Pruritus,143
+XOLAIR PFS,Asthma,138
+XOLAIR PFS,Product dose omission issue,110
+XOLAIR PFS,Rash,53
+XPHOZAH,Diarrhoea,549
+XPHOZAH,Death,150
+XPHOZAH,Inappropriate schedule of product administration,109
+XPHOZAH,Hospitalisation,102
+XPHOZAH,Therapy interrupted,43
+XPHOZAH,Product use issue,42
+XPHOZAH,Nausea,37
+XPHOZAH,Drug intolerance,34
+XPHOZAH,Off label use,34
+XPHOZAH,Treatment noncompliance,34
+XYREM,Product administration interrupted,226
+XYREM,Surgery,203
+XYREM,Nausea,115
+XYREM,Hypertension,111
+XYREM,Intentional product use issue,111
+XYREM,Anxiety,107
+XYREM,Weight decreased,107
+XYREM,Off label use,104
+XYREM,Depression,100
+XYREM,Fall,96
+XYWAV,Surgery,1060
+XYWAV,Product administration interrupted,612
+XYWAV,Nausea,488
+XYWAV,Product dose omission issue,446
+XYWAV,Intentional dose omission,425
+XYWAV,Anxiety,348
+XYWAV,Intentional product use issue,332
+XYWAV,Somnolence,325
+XYWAV,Feeling abnormal,319
+XYWAV,Dizziness,307
+YERVOY,Death,465
+YERVOY,Cytokine release syndrome,219
+YERVOY,Pyrexia,130
+YERVOY,Malignant neoplasm progression,120
+YERVOY,Immune-mediated enterocolitis,113
+YERVOY,Immune-mediated hepatic disorder,89
+YERVOY,Liver disorder,85
+YERVOY,Immune-mediated dermatitis,79
+YERVOY,Immune-mediated lung disease,77
+YERVOY,Rash,71
+ZEPBOUND,Incorrect dose administered,6872
+ZEPBOUND,Nausea,2972
+ZEPBOUND,Injection site pain,2409
+ZEPBOUND,Extra dose administered,2306
+ZEPBOUND,Drug ineffective,1747
+ZEPBOUND,Diarrhoea,1578
+ZEPBOUND,Accidental underdose,1432
+ZEPBOUND,Vomiting,1281
+ZEPBOUND,Therapeutic response changed,1203
+ZEPBOUND,Constipation,1044
+ZEPOSIA,Fatigue,110
+ZEPOSIA,Product dose omission issue,85
+ZEPOSIA,Multiple sclerosis relapse,70
+ZEPOSIA,Drug ineffective,56
+ZEPOSIA,Headache,52
+ZEPOSIA,Colitis ulcerative,48
+ZEPOSIA,Pain,42
+ZEPOSIA,Off label use,37
+ZEPOSIA,Disturbance in attention,33
+ZEPOSIA,Dizziness,30
+ZOLEDRONIC ACID,Osteonecrosis of jaw,150
+ZOLEDRONIC ACID,Fatigue,143
+ZOLEDRONIC ACID,Off label use,124
+ZOLEDRONIC ACID,Nausea,107
+ZOLEDRONIC ACID,Pain,101
+ZOLEDRONIC ACID,Neutropenia,98
+ZOLEDRONIC ACID,Malaise,93
+ZOLEDRONIC ACID,Arthralgia,89
+ZOLEDRONIC ACID,Pyrexia,89
+ZOLEDRONIC ACID,Vomiting,89
+ZYRTEC,Pruritus,240
+ZYRTEC,Drug ineffective,209
+ZYRTEC,Product use in unapproved indication,180
+ZYRTEC,Somnolence,96
+ZYRTEC,Therapeutic response unexpected,80
+ZYRTEC,Withdrawal syndrome,78
+ZYRTEC,Off label use,72
+ZYRTEC,Overdose,71
+ZYRTEC,Urticaria,51
+ZYRTEC,Wrong technique in product usage process,36
