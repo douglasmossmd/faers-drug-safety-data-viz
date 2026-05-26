@@ -1,0 +1,3 @@
+is_glp1_case,total_reactions,dosing_errors,dosing_error_pct,group
+False,4653129,89143,1.92,All Other Drugs
+True,204792,21600,10.55,GLP-1 Drugs

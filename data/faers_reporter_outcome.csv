@@ -1,0 +1,49 @@
+reporter_type,worst_outcome,count,pct_within_group
+Consumer,Congenital Anomaly,195,0.03
+Consumer,Death,24987,4.39
+Consumer,Disability,6260,1.1
+Consumer,Hospitalization,69697,12.26
+Consumer,Life-Threatening,5338,0.94
+Consumer,No Outcome Reported,333297,58.61
+Consumer,Other Serious,128134,22.53
+Consumer,Required Intervention,757,0.13
+Health Professional,Congenital Anomaly,790,0.24
+Health Professional,Death,27020,8.22
+Health Professional,Disability,1236,0.38
+Health Professional,Hospitalization,53018,16.13
+Health Professional,Life-Threatening,10687,3.25
+Health Professional,No Outcome Reported,143317,43.6
+Health Professional,Other Serious,92473,28.13
+Health Professional,Required Intervention,203,0.06
+Lawyer,Congenital Anomaly,2,0.02
+Lawyer,Death,370,4.19
+Lawyer,Disability,651,7.38
+Lawyer,Hospitalization,1138,12.9
+Lawyer,Life-Threatening,80,0.91
+Lawyer,No Outcome Reported,1201,13.62
+Lawyer,Other Serious,5378,60.97
+Lawyer,Required Intervention,1,0.01
+Pharmacist,Congenital Anomaly,63,0.08
+Pharmacist,Death,6538,8.71
+Pharmacist,Disability,676,0.9
+Pharmacist,Hospitalization,20333,27.08
+Pharmacist,Life-Threatening,3975,5.29
+Pharmacist,No Outcome Reported,23595,31.43
+Pharmacist,Other Serious,19480,25.95
+Pharmacist,Required Intervention,414,0.55
+Physician,Congenital Anomaly,1082,0.36
+Physician,Death,33127,11.16
+Physician,Disability,2437,0.82
+Physician,Hospitalization,66563,22.43
+Physician,Life-Threatening,16953,5.71
+Physician,No Outcome Reported,73447,24.75
+Physician,Other Serious,103011,34.72
+Physician,Required Intervention,104,0.04
+Unknown,Congenital Anomaly,200,0.1
+Unknown,Death,18491,9.67
+Unknown,Disability,1089,0.57
+Unknown,Hospitalization,39738,20.78
+Unknown,Life-Threatening,3662,1.91
+Unknown,No Outcome Reported,71235,37.24
+Unknown,Other Serious,56150,29.36
+Unknown,Required Intervention,712,0.37
