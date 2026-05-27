@@ -6,11 +6,11 @@
 
 ## Project Overview
 
-This project analyzes the **FDA Adverse Event Reporting System (FAERS)** — the FDA's post-market drug safety surveillance database — using all four quarters of 2025 data (Q1–Q4). The result is a three-part interactive visualization suite built in Tableau, supplemented by an original web-based drug safety lookup tool built from scratch in HTML/JavaScript.
+This project analyzes the **FDA Adverse Event Reporting System (FAERS)**, the FDA's post-market drug safety surveillance database, using all four quarters of 2025 data (Q1 through Q4). The output is a three-part Tableau visualization suite plus a standalone web-based drug lookup tool we built in HTML/JavaScript.
 
-The central question: *What does real-world drug safety data actually tell us — and can it be made actionable for clinicians?*
+The question we wanted to answer: what does real-world drug safety data actually tell us, and can any of it be turned into something a clinician would use?
 
-As an emergency physician, I see patients daily whose symptoms may be drug-related. FAERS captures exactly this kind of real-world adverse event data at massive scale. Unlike clinical trial data collected under controlled conditions, FAERS reflects what actually happens when drugs are used by millions of patients in practice. This project attempts to surface those signals clearly and honestly.
+As an emergency physician, I see patients every day whose symptoms might be drug-related. FAERS captures that kind of post-market adverse event data at massive scale. Clinical trials are run under tight conditions; FAERS is what actually happens when millions of people take a drug in the real world. We wanted to surface those signals without dressing them up.
 
 ---
 
@@ -97,7 +97,7 @@ All cleaned outputs are saved to `FAERS Data/output_clean/`:
 
 ## Hypotheses & Findings
 
-Six hypotheses were tested against the data. Results were mixed — which is honest, and worth saying.
+We started with six hypotheses and tested each against the cleaned dataset. The results were mixed, and we kept them that way (a couple of the "non-findings" are arguably more interesting than the confirmations).
 
 | Hypothesis | Finding | Supported? |
 |---|---|---|
@@ -108,43 +108,45 @@ Six hypotheses were tested against the data. Results were mixed — which is hon
 | Physician reports associated with worse outcomes | Physician-reported cases: 11.16% death rate vs. 4.39% for consumer reports | ✅ Yes |
 | Off-label use → worse outcomes | Off-label death rate: 7.4% vs. on-label: 7.5% — no meaningful difference | ❌ Not supported |
 
-The off-label null finding is itself interesting: despite 107,825 off-label reports, outcomes are statistically indistinguishable from on-label use, at least within FAERS.
+The off-label null finding is interesting in its own right. Out of 107,825 off-label reports, outcomes were statistically indistinguishable from on-label use, at least inside FAERS.
 
 ---
 
-## Notable Limitations
+## Caveats
 
-- **FAERS is a voluntary reporting system.** It captures what gets reported, not what actually occurs. Under-reporting is substantial, especially for mild adverse events.
-- **Report volume reflects prescribing popularity, not danger.** A drug with 100,000 reports is likely widely prescribed, not necessarily dangerous.
-- **No causality is established.** A reported adverse event following drug use does not mean the drug caused it.
-- **64.2% of age records are missing** in the 2025 dataset. Age-based analysis should be interpreted cautiously.
-- **Drug name standardization is imperfect.** Despite uppercasing and explicit GLP-1 mapping, spelling variants and abbreviations may still result in undercounting for some drugs.
-- **GLP-1 therapy duration coverage is only 22%** of cases, limiting conclusions from that dataset.
+A few things to keep in mind when reading any of the numbers above:
+
+- FAERS is voluntary. It records what gets reported, not what actually happens in the world, and under-reporting is heaviest for mild events.
+- Report volume tracks prescribing popularity more than danger. A drug with 100,000 reports is usually just widely prescribed.
+- No causality is established here. A reported event after drug use is not the same as the drug causing it.
+- 64.2% of age records are missing in the 2025 data. Treat any age-based slice with caution.
+- Drug name standardization is imperfect. We uppercased everything and mapped GLP-1s by hand, but spelling variants and abbreviations almost certainly cause some undercounting elsewhere.
+- GLP-1 therapy-duration coverage is only 22% of cases. That dataset is included but should not be the basis of strong claims.
 
 ---
 
 ## Dashboard Structure
 
-### Dashboard 1 — Overview: Scale & the Volume-Danger Paradox
-*Question: What does 2025 drug safety data look like, and do the most-reported drugs carry the most risk?*
+### Dashboard 1: Scale and the Volume-vs-Danger Paradox
+What does 2025 drug safety data look like at a glance, and do the most-reported drugs actually carry the most risk?
 
 - KPI tiles: total reports, deaths, hospitalizations, GLP-1 share
 - Top Drugs by Volume (bar chart)
-- Volume vs. Danger scatter (report count vs. death rate — the paradox lives here)
+- Volume vs. Danger scatter (report count against death rate; this is where the paradox lives)
 - Top Reactions globally
 - Quarterly Trend (outcome mix across Q1–Q4)
 - World Map (reporting geography)
 
-### Dashboard 2 — Patterns: Who's Reporting, and Does It Change What We See?
-*Question: Does the identity of the reporter shape the safety signal?*
+### Dashboard 2: Who's Reporting, and Does It Shift the Picture?
+Does the identity of the reporter change the safety signal?
 
-- Reporter Type × Death Rate (physicians report the serious stuff)
+- Reporter Type × Death Rate (physicians tend to report the serious stuff)
 - Who Is Reporting (breakdown by reporter type)
-- Off-Label vs. On-Label Outcomes (the null finding — honestly presented)
-- Age Group × Outcome (with explicit missingness caveat)
+- Off-Label vs. On-Label Outcomes (the null finding, left as-is)
+- Age Group × Outcome (with the missingness caveat called out)
 
-### Dashboard 3 — The GLP-1 Story
-*Question: What does adverse event data actually say about the drugs everyone is talking about?*
+### Dashboard 3: The GLP-1 Story
+What does adverse event data actually say about the drugs everyone is talking about right now?
 
 - GLP-1 Outcomes by Drug Family
 - Top Clinical Reactions (filtering out dosing/administrative terms)
@@ -153,25 +155,25 @@ The off-label null finding is itself interesting: despite 107,825 off-label repo
 - Drug Family Breakdown (Tirzepatide vs. Semaglutide vs. others)
 - Therapy Duration Distribution
 
-### Drug Safety Explorer (Web App)
-An interactive, standalone HTML tool built entirely from the processed FAERS data. Search any of the 300 most-reported drugs and instantly see: total reports, death rate, hospitalization rate, outcome breakdown, and top adverse reactions. GLP-1 drugs receive an enhanced profile including dosing error comparison and indication breakdown. Designed with a clinical context in mind — what would actually be useful at the bedside?
+### Drug Safety Explorer (web app)
+A standalone HTML tool that sits on top of the cleaned FAERS outputs. Search any of the 300 most-reported drugs and you get the same view every time: total reports, death rate, hospitalization rate, outcome breakdown, and the top reported adverse reactions. GLP-1 drugs get an extra section that adds the dosing-error comparison and the prescribing-indication breakdown. The whole thing was designed with a "would this be useful at the bedside?" filter, since that's the actual audience.
 
 ---
 
 ## Use of AI / LLMs
 
-Per course requirements, AI tools were used throughout this project. Their role was assistive and is documented here:
+Per the course requirements, here is where AI tools sat in this project.
 
-- **Claude (Anthropic)** was used extensively for:
-  - Python code generation for data cleaning, deduplication, and output file creation
-  - Iterative debugging of the Jupyter notebook
-  - Building the Drug Safety Explorer web app (HTML, CSS, JavaScript, Chart.js integration)
-  - Drafting this README
-  - Narrative structuring and hypothesis framing
+We used Claude (Anthropic) throughout, mainly as a coding partner. Specifically:
 
-- **Judgment and interpretation remained mine.** All hypotheses were defined before analysis. Data quality decisions (deduplication logic, severity ranking, primary-suspect filtering) were made and verified by me. The null finding on off-label use was not smoothed over or reframed.
+- Python code for the cleaning pipeline — deduplication, severity ranking, the per-drug aggregations that produced the CSVs in `output_clean/`.
+- Debugging the Jupyter notebook when joins or groupbys didn't behave.
+- The Drug Safety Explorer web app: HTML, CSS, JavaScript, and the Chart.js wiring. The visual structure was iterated by hand; Claude generated the boilerplate.
+- A first pass on this README, which we then rewrote in our own voice.
 
-- The cleaning notebook (`faers_cleaning.ipynb`) and the web app (`drug_safety_explorer.html`) are both included in this repository and can be inspected in full.
+What we did ourselves: every hypothesis was written down before we ran the analysis, not after. The deduplication logic (keep highest `primaryid` per `caseid`), the severity ladder used to assign one outcome per case, and the choice to restrict drug-level analysis to primary-suspect records were all decisions we made and re-checked against the data. The off-label null result was left alone rather than reframed into a finding.
+
+The cleaning notebook (`faers_cleaning.ipynb`) and the web app (`drug_safety_explorer.html`) are both in this repo, in full.
 
 ---
 
