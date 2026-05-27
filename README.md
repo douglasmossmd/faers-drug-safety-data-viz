@@ -156,7 +156,7 @@ What does adverse event data actually say about the drugs everyone is talking ab
 - Therapy Duration Distribution
 
 ### Drug Safety Explorer (web app)
-A standalone HTML tool that sits on top of the cleaned FAERS outputs. Search any of the 300 most-reported drugs and you get the same view every time: total reports, death rate, hospitalization rate, outcome breakdown, and the top reported adverse reactions. GLP-1 drugs get an extra section that adds the dosing-error comparison and the prescribing-indication breakdown. The whole thing was designed with a "would this be useful at the bedside?" filter, since that's the actual audience.
+A standalone HTML tool that sits on top of the cleaned FAERS outputs. Search any of the 300 most-reported drugs and you get the same view every time: total reports, death rate, hospitalization rate, outcome breakdown, and the top reported adverse reactions. GLP-1 drugs get an extra section that adds the dosing-error comparison and the prescribing-indication breakdown. The whole thing was designed with a "would this be useful at the bedside?" filter, since that's the actual audience. Redesigned in May 2026 to match the visual language of the static dashboards — navy chrome, ColorBrewer Blues palette, search-first hero landing, and a baseline-comparison chart that shows the drug's death rate against the FAERS-wide 7.52% mean.
 
 ---
 
