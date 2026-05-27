@@ -1,0 +1,23 @@
+# macOS
+.DS_Store
+
+# Claude Code config and hooks (machine specific; never commit)
+.claude/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Editors
+.vscode/
+.idea/
+
+# Env files (secrets)
+.env
+.env.local
