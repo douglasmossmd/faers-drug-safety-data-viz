@@ -1,6 +1,6 @@
 # FAERS Drug Safety Dashboard
 ### BUS 32130: Data Visualization for Decision-Making — Final Project
-**Douglas Moss & Livie Anastasya · Booth School of Business · Spring 2026**
+**Douglas Moss & Livie Anastasya, Booth School of Business, Spring 2026**
 
 ---
 
