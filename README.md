@@ -14,12 +14,30 @@ As an emergency physician, I see patients every day whose symptoms might be drug
 
 ---
 
+## Audience & the Questions We Answer
+
+**Primary audience:** practicing clinicians (emergency physicians, prescribers) and pharmacovigilance-minded readers who need a fast, honest read on a drug's real-world safety signal — not a regulator's full statistical model.
+
+Every artifact in this repo is built to answer four concrete questions for that audience:
+
+1. **Does report *volume* equal *danger*?** (The most-reported drug is rarely the most lethal.)
+2. **Does *who reports* change the safety signal?** (Physician vs. consumer reporting.)
+3. **What does the data actually say about GLP-1 drugs** — the class everyone is currently prescribing for weight loss?
+4. **Can a clinician look up a single drug and get a trustworthy profile at the bedside in under ten seconds?**
+
+The first three are answered by the static Tableau/Plotly/Excel dashboards; the fourth is answered by the interactive Drug Safety Explorer web portal. Relevance to the audience drove every design choice — we kept clinical reaction terms, surfaced death and hospitalization rates first, and labelled every caveat on the graph itself so the visuals stand alone without narration.
+
+---
+
 ## Deliverables
 
 | Artifact | Description |
 |---|---|
-| **Tableau Workbook** | Three dashboards: Overview, Reporter Patterns, and GLP-1 Deep Dive |
-| **Drug Safety Explorer** | Standalone interactive web app — search any drug, instant safety profile |
+| **Tableau Workbooks** | `.twbx` packaged workbooks behind the Overview, Reporter-Patterns, GLP-1, and Quarterly-Trend analyses |
+| **Final Dashboards** | 5 design-polished dashboards composited in Inkscape (`inkscape final dashboards/`) |
+| **Chart Exports** | 26 source SVGs from Tableau, Plotly, and Matplotlib (`svg files/`) |
+| **Excel Workbook** | 11-sheet cross-check workbook with native charts |
+| **Drug Safety Explorer** | Standalone interactive web portal — search any drug, instant safety profile |
 | **Data Pipeline** | Jupyter notebook + Python scripts for all data cleaning and processing |
 
 - 📊 [Tableau Public Workbook](#) *(add link after upload)*
@@ -160,16 +178,114 @@ A standalone HTML tool that sits on top of the cleaned FAERS outputs. Search any
 
 ---
 
+## From Data to Dashboard — The Visualization Process
+
+The cleaned CSVs in `data/` were never the deliverable; they were the raw material. Turning ~1.5M rows of adverse-event data into five dashboards that *stand alone without narration* took a deliberate, multi-tool pipeline. Each tool was chosen for what it is genuinely good at — "clever" for its own sake was avoided, because complexity that doesn't serve the clinical question gets in the reader's way.
+
+```
+Cleaned CSVs (Python/pandas)
+        │
+        ├──►  Tableau          ──►  .svg exports   ┐
+        ├──►  Python / Plotly  ──►  .svg exports   ├──►  Inkscape  ──►  5 final dashboards (.png)
+        ├──►  Python / Matplotlib ─►  .svg/.png    ┘                         │
+        └──►  Excel            ──►  charts (cross-check)                      │
+                                                                             ▼
+                              Drug Safety Explorer  ──►  high-fidelity HTML prototype (GitHub Pages)
+```
+
+### Stage 1 — Build the charts in Tableau (primary tool)
+
+Tableau is the backbone of the project and the primary visualization tool, as required. Two packaged workbooks are committed so the work is fully reproducible:
+
+| File | What it contains |
+|---|---|
+| `FAERS and GLP-1_DataViz.twbx` | The main workbook — all worksheets behind the Overview, Reporter-Patterns, and GLP-1 dashboards |
+| `FAERS and GLP-1 Quarterly Trends.twbx` | Focused workbook for the Q1–Q4 outcome-mix trend analysis |
+
+Inside Tableau we built the worksheets that needed real interaction and geographic/statistical handling — the **volume-vs-danger scatter**, the **quarterly outcome-mix trend**, the **world map** of reporting geography, and the GLP-1 family breakdowns. Correct Tableau technique mattered here: calculated fields for death/hospitalization rates, level-of-detail expressions to assign one worst-outcome per case, and dual-axis work for the comparison charts. Finished worksheets were exported as **vector SVG** (Tableau → Worksheet → Export → Image/SVG) so nothing degrades when rescaled. These exports live in `svg files/` as the title-cased files — `Age vs Outcome.svg`, `GLP1 Drug Breakdown.svg`, `GLP1 Indications.svg`, `GLP1 Outcomes.svg`, and `Off Label Outcomes.svg`.
+
+### Stage 2 — Static charts in Python (Plotly + Matplotlib)
+
+For the charts that needed pixel-precise control or repetitive small-multiples, we generated them programmatically in Python directly off the cleaned CSVs. **Plotly** produced the majority of the static panels — its SVG export (recognisable by the `class="main-svg"` signature) gave us clean, editable vectors. These are the `tab*`, `top10_*`, `family_grid`, `teaser_*`, `top20_reactions`, and distribution files in `svg files/`, including:
+
+- `tab3_volume_vs_danger.svg`, `tab6_quarterly_trend.svg`, `tab7_outcome_mix.svg`, `tab10_offlabel_vs_onlabel.svg`, `tab11_world_map.svg` — the analytical panels
+- `top10_semaglutide.svg`, `top10_tirzepatide.svg`, `top10_liraglutide.svg`, `top10_dulaglutide.svg`, `top10_exenatide.svg` — per-drug small multiples
+- `family_grid.svg`, `top20_reactions.svg`, `top15_serious_allfaers.svg`, `age_buckets.svg`, `sex_distribution.svg` — supporting breakdowns
+
+Generating with code (rather than clicking) meant the GLP-1 family small-multiples shared an identical axis, scale, and palette automatically — a Gestalt **similarity/uniformity** win that would have been tedious to enforce by hand.
+
+### Stage 3 — Excel as a cross-check and second visual source
+
+`FAERS_2025_Excel_Visualizations.xlsx` is a full Excel workbook (11 tabbed sheets, 8 native charts) that mirrors the analysis: `Overview`, `Top Drugs`, `Volume vs Danger`, `Top Reactions`, `Drug-Reaction Heat`, `Quarterly Trend`, `Outcome Mix`, `Reporter Mix`, `Age x Outcome`, `Off- vs On-Label`, and `Countries`. Excel served two purposes: (1) it satisfies the rubric's Python-**OR**-Excel integration requirement and (2) it acted as an independent sanity check — building the same numbers in a second tool caught a join error before it reached the final art. PivotTable-driven, the workbook is the "show your work" companion to the polished dashboards.
+
+### Stage 4 — Export everything to SVG (one common vector format)
+
+Tableau, Plotly, and Matplotlib all funnel into the same format: **SVG**. This was deliberate. SVG is resolution-independent, and — critically — every element (text, bar, axis, color swatch) remains an *editable object*. That made the next stage possible. All 26 exports are collected in `svg files/` as the single staging directory between "charting" and "design."
+
+### Stage 5 — Composite & polish in Inkscape (professional design pass)
+
+The raw exports were good analysis but not yet good *design*. Each SVG was imported into **Inkscape** (free, open-source vector editor) and composited into five cohesive dashboards. This is where the project moves from "charts" to "designed artifacts," and where the **Principles of Good Design** rubric (and its Inkscape/Illustrator bonus) is earned. The five finished dashboards are in `inkscape final dashboards/`:
+
+| Dashboard | File | Question it answers |
+|---|---|---|
+| 1 · Overview | `dashboard_1_overview_inkscape.png` | Scale of 2025 FAERS + the volume-vs-danger paradox |
+| 2 · Patterns | `dashboard_2_patterns.png` | Who reports, and does it shift the signal? |
+| 3 · GLP-1 | `dashboard_3_glp1.png` | The GLP-1 deep dive |
+| 4 · Details | `dashboard_4_details.png` | Drill-down detail panels |
+| 5 · Takeaways | `dashboard_5_takeaways.png` | Plain-language conclusions for the clinician |
+
+See the **Design Principles** section below for exactly what changed in Inkscape.
+
+### Stage 6 — The interactive web portal (high-fidelity prototype)
+
+The static dashboards answer the "big picture" questions. The fourth question — *can a clinician look up one drug at the bedside?* — needed something interactive, so we built the **Drug Safety Explorer** as a standalone, single-file HTML web app (`drug_safety_explorer.html`). It sits on top of the same cleaned FAERS outputs: search any of the 300 most-reported drugs and get an instant profile (total reports, death rate, hospitalization rate, outcome breakdown, top reactions, and — for GLP-1s — the dosing-error and indication comparisons), with a baseline marker showing the drug's death rate against the FAERS-wide 7.52% mean.
+
+It is a genuine **high-fidelity prototype**: production-quality look and feel, real data, real interactivity, deployed to a public URL via **GitHub Pages** so it runs in any browser with no install. We built it with **Claude (Anthropic)** as a coding partner — Claude generated the HTML/CSS/JavaScript and the interactive charting scaffold while we directed the visual structure, the clinical framing, and every design decision. The charts are rendered with **Chart.js**; the visual language (navy chrome, ColorBrewer Blues palette, search-first hero) was deliberately matched to the static Inkscape dashboards so the whole suite reads as one product.
+
+> **Tooling note:** the published web portal renders its charts with Chart.js. **Plotly** is used elsewhere in the project — it generated the static SVG panels in Stage 2 — so the project does exercise Plotly end-to-end (Python → interactive figure → SVG), just not inside the deployed HTML file.
+
+**Live:** https://douglasmossmd.github.io/faers-drug-safety-data-viz/drug_safety_explorer.html
+
+---
+
+## Design Principles
+
+The brief is explicit that on-graph text and visual craft are graded, and that visuals must stand alone without narration. Here is how the standard design vocabulary was applied during the Inkscape pass (Stage 5 above).
+
+### Color theory
+- A single restrained palette across **all** artifacts — a **navy + ColorBrewer Blues** sequential scheme — so the eye reads intensity, not rainbow noise. Sequential blues encode magnitude (more reports / higher rate = deeper blue) honestly, without implying false categories.
+- **Red is reserved exclusively for death/severity.** Because it appears nowhere else, a red element instantly means "this is the serious outcome" — color is doing semantic work, not decoration.
+- Backgrounds and chrome are low-saturation neutrals so the data has the highest contrast on the page (figure/ground).
+
+### Gestalt principles
+- **Proximity & common region:** related KPIs and their explanatory text are grouped inside shared cards/panels, so the reader parses the dashboard as a few meaningful blocks rather than a wall of charts.
+- **Similarity:** the five GLP-1 per-drug small-multiples share identical axes, scale, and color, so they're instantly comparable — differences in the *data* pop because the *form* is uniform.
+- **Alignment & continuity:** a strict underlying grid in Inkscape; titles, axes, and panels snap to common baselines, which is what makes the composite look "designed" rather than pasted.
+- **Figure/ground:** caveats and annotations sit in muted secondary type so they're present but never compete with the headline number.
+
+### Typeface selection
+- A two-tier type system: one clean **sans-serif for all UI/labels/data** (legibility at small sizes, the clinical-instrument feel we wanted) with weight — not font-switching — used to build hierarchy (bold headline number, regular label, light caveat). Consistent type across the Tableau exports, the Inkscape dashboards, and the web portal is what makes the artifacts read as one family.
+
+### Data storytelling & restraint
+- Every dashboard leads with the *question*, not the chart type, and ends (Dashboard 5) with plain-language takeaways.
+- Per the brief's note on complexity, we deliberately *avoided* clever visualizations: no 3-D, no dual-encoded novelty charts. The volume-vs-danger scatter is "just" a scatter because the scatter is the clearest way to show that volume ≠ danger. Complexity was only kept where it served the clinical question.
+- Null findings (off-label outcomes) are shown as-is rather than reframed — honest storytelling over a tidy narrative.
+
+---
+
 ## Use of AI / LLMs
 
 Per the course requirements, here is where AI tools sat in this project.
 
 We used Claude (Anthropic) throughout, mainly as a coding partner. Specifically:
 
-- Python code for the cleaning pipeline — deduplication, severity ranking, the per-drug aggregations that produced the CSVs in `output_clean/`.
+- Python code for the cleaning pipeline — deduplication, severity ranking, the per-drug aggregations that produced the CSVs in `data/`.
 - Debugging the Jupyter notebook when joins or groupbys didn't behave.
-- The Drug Safety Explorer web app: HTML, CSS, JavaScript, and the Chart.js wiring. The visual structure was iterated by hand; Claude generated the boilerplate.
+- The Python/Plotly and Matplotlib charting scripts that exported the static SVG panels in `svg files/`.
+- The Drug Safety Explorer web app: HTML, CSS, JavaScript, and the Chart.js wiring, plus help publishing it to GitHub Pages as a high-fidelity prototype. The visual structure was iterated by hand; Claude generated the boilerplate.
 - A first pass on this README, which we then rewrote in our own voice.
+
+What stayed fully human: all chart *design* decisions, the Tableau worksheet construction, and the entire Inkscape compositing/Gestalt pass.
 
 What we did ourselves: every hypothesis was written down before we ran the analysis, not after. The deduplication logic (keep highest `primaryid` per `caseid`), the severity ladder used to assign one outcome per case, and the choice to restrict drug-level analysis to primary-suspect records were all decisions we made and re-checked against the data. The off-label null result was left alone rather than reframed into a finding.
 
@@ -183,9 +299,14 @@ The cleaning notebook (`faers_cleaning.ipynb`) and the web app (`drug_safety_exp
 |---|---|
 | Python (pandas) | Data cleaning, aggregation, output generation |
 | Jupyter Notebook | Interactive data pipeline |
-| Tableau | Primary visualization (Dashboards 1–3) |
-| HTML / CSS / JavaScript | Drug Safety Explorer web app |
-| Chart.js | Charts within the web app |
+| **Tableau** | Primary visualization tool — scatter, trend, map, GLP-1 worksheets (`.twbx` workbooks → SVG) |
+| **Python (Plotly)** | Static analytical panels and per-drug small-multiples, exported to SVG |
+| **Python (Matplotlib)** | Supporting static figures |
+| **Excel** | Independent cross-check workbook + native charts (`FAERS_2025_Excel_Visualizations.xlsx`) |
+| **Inkscape** | Vector compositing and design polish → 5 final dashboards |
+| HTML / CSS / JavaScript | Drug Safety Explorer web portal (high-fidelity prototype) |
+| Chart.js | Interactive charts within the web portal |
+| GitHub Pages | Hosting the live web portal |
 | GitHub | Version control and submission |
 
 ---
@@ -193,15 +314,21 @@ The cleaning notebook (`faers_cleaning.ipynb`) and the web app (`drug_safety_exp
 ## Repository Structure
 
 ```
-├── README.md                          ← This file
-├── faers_cleaning.ipynb               ← Full data cleaning pipeline
-├── snippets.py                        ← Cleaning code reference (plain Python)
-├── drug_safety_explorer.html          ← Interactive drug lookup tool
-├── Final Draft w GLP1.twb             ← Tableau workbook (main)
-├── FAERS and GLP-1_DataViz.twbx       ← Tableau packaged workbook
-└── FAERS Data/
-    ├── Untouched/                     ← Raw FDA downloads (Q1–Q4)
-    └── output_clean/                  ← All processed CSV outputs
+├── README.md                                  ← This file
+├── faers_cleaning.ipynb                       ← Full data cleaning pipeline
+├── snippets.py                                ← Cleaning code reference (plain Python)
+├── drug_safety_explorer.html                  ← Interactive web portal (high-fidelity prototype)
+├── FAERS and GLP-1_DataViz.twbx               ← Main Tableau packaged workbook
+├── FAERS and GLP-1 Quarterly Trends.twbx      ← Tableau quarterly-trend workbook
+├── FAERS_2025_Excel_Visualizations.xlsx       ← Excel cross-check workbook (11 sheets, 8 charts)
+├── data/                                       ← All processed CSV outputs (the 17 cleaned files)
+├── svg files/                                  ← 26 chart exports: Tableau (title-cased) + Plotly/Matplotlib (tab*, top10*, …)
+└── inkscape final dashboards/                  ← 5 composited, design-polished dashboards (.png)
+    ├── dashboard_1_overview_inkscape.png
+    ├── dashboard_2_patterns.png
+    ├── dashboard_3_glp1.png
+    ├── dashboard_4_details.png
+    └── dashboard_5_takeaways.png
 ```
 
 ---
