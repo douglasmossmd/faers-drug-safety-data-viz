@@ -36,7 +36,7 @@ The first three are answered by the static Tableau/Plotly/Excel dashboards; the 
 | **Tableau Workbooks** | `.twbx` packaged workbooks behind the Overview, Reporter-Patterns, GLP-1, and Quarterly-Trend analyses |
 | **Final Dashboards** | 5 design-polished dashboards composited in Inkscape (`inkscape final dashboards/`) |
 | **Chart Exports** | 26 source SVGs from Tableau, Plotly, and Matplotlib (`svg files/`) |
-| **Excel Workbook** | 11-sheet cross-check workbook with native charts |
+| **Excel Workbook** | 11-sheet cross-check workbook with charts, graphs and heatmaps|
 | **Drug Safety Explorer** | Standalone interactive web portal — search any drug, instant safety profile |
 | **Data Pipeline** | Jupyter notebook + Python scripts for all data cleaning and processing |
 
