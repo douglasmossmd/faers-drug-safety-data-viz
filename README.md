@@ -16,16 +16,47 @@ As an emergency physician, I see patients every day whose symptoms might be drug
 
 ## Audience & the Questions We Answer
 
-**Primary audience:** practicing clinicians (emergency physicians, prescribers) and pharmacovigilance-minded readers who need a fast, honest read on a drug's real-world safety signal — not a regulator's full statistical model.
+**Primary audience: practicing clinicians**, and specifically the clinicians who already have a stake in this drug class. Think of an endocrinologist fielding a wave of GLP-1 requests, a primary-care physician deciding whether a patient's nausea is the drug or something else, or an emergency physician seeing an adverse event and trying to place it. These are people who read the medical literature but rarely have time to pull raw FAERS files themselves. They want a fast, honest read on a drug's real-world safety profile, not a regulator's full statistical model and not a marketing deck.
 
-Every artifact in this repo is built to answer four concrete questions for that audience:
+We designed for that reader on two levels, because clinicians don't all consume data the same way:
+
+- **The dashboards** are for the clinician who wants the landscape — the five-panel story of what 2025 adverse-event data looks like across the whole drug supply and the GLP-1 class in particular. You read these the way you'd read a journal figure.
+- **The web portal** is for the clinician at the point of care who has one drug in mind and ten seconds to spare. You type the name, you get the profile. Same data, different entry point.
+
+Secondary readers — pharmacovigilance staff, health-policy researchers, and frankly any informed patient on one of these drugs — get value from the same artifacts without any of them being the design target. We optimized for the clinician and let everyone else benefit.
+
+Every artifact answers four concrete questions for that audience:
 
 1. **Does report *volume* equal *danger*?** (The most-reported drug is rarely the most lethal.)
 2. **Does *who reports* change the safety signal?** (Physician vs. consumer reporting.)
 3. **What does the data actually say about GLP-1 drugs** — the class everyone is currently prescribing for weight loss?
 4. **Can a clinician look up a single drug and get a trustworthy profile at the bedside in under ten seconds?**
 
-The first three are answered by the static Tableau/Plotly/Excel dashboards; the fourth is answered by the interactive Drug Safety Explorer web portal. Relevance to the audience drove every design choice — we kept clinical reaction terms, surfaced death and hospitalization rates first, and labelled every caveat on the graph itself so the visuals stand alone without narration.
+The first three are answered by the static Tableau/Plotly/Excel dashboards; the fourth is answered by the interactive Drug Safety Explorer web portal. Relevance to the audience drove every design choice. We kept clinical reaction terms instead of dumbing them down, surfaced death and hospitalization rates first because that is what a prescriber checks first, and put every caveat directly on the graph so the visuals stand alone without narration.
+
+---
+
+## Our Thought Process & Assumptions
+
+We did not start with a chart and look for a reason to build it. We started with a point of view: that the public conversation about drug safety, and GLP-1s especially, runs on volume and vibes rather than on what the post-market data actually shows. FAERS is the closest thing to a ground truth for real-world adverse events, so the plan was to let it either confirm or puncture the conventional wisdom and to report whichever way it landed.
+
+The sequence we worked in:
+
+1. **Write the hypotheses first.** All six hypotheses in the table below were committed to before we ran a single aggregation. This was deliberate — it kept us from p-hacking our way into a tidy story and made the off-label null result something we had to publish rather than something we could quietly drop.
+2. **Clean before we trust.** Roughly 1.6M raw records do not become 1.5M clean ones for free. The deduplication, worst-outcome ranking, and primary-suspect filtering (detailed in *Data Cleaning & Processing*) were the load-bearing decisions; every downstream number inherits them.
+3. **Validate in a second tool.** We rebuilt the headline figures in Excel independently of the Python pipeline. When the two agreed, we trusted the number; when they did not, we found the join bug. Two tools, one answer.
+4. **Design last.** Only once the numbers were stable did we move into Tableau, Plotly, and Inkscape. Polishing a chart that is built on a bad aggregation is wasted effort.
+
+**The assumptions we are making explicit, because they shape every figure:**
+
+- **A report is a signal, not a verdict.** FAERS records that an event was *reported* after a drug was taken, not that the drug *caused* it. We treat counts as signals worth investigating, never as proof of causation.
+- **The most recent submission is the truth.** When a case appears multiple times, we keep the highest `primaryid` and assume later follow-ups supersede earlier ones.
+- **One case, one worst outcome.** A patient who is hospitalized and then dies is counted once, as a death, via a fixed severity ladder. This understates total event counts but prevents double-counting deaths.
+- **Primary-suspect only, for drug-level claims.** When we attribute an event to a drug, we use only records where that drug was coded the primary suspect, not a concomitant medication the patient happened to be on.
+- **Brand and generic are the same drug.** Ozempic, Wegovy, and Rybelsus all roll up to semaglutide. We mapped the GLP-1 family by hand and assume the mapping is complete for this class; we make no such guarantee for the long tail of other drugs.
+- **Reporting geography ≠ where the event happened.** Reporter country is where the report originated, which over-weights the United States and should not be read as global incidence.
+
+The flip side of these assumptions — what they prevent us from claiming — is documented honestly in the **Caveats** section further down. We would rather a clinician trust a smaller number than over-read a bigger one.
 
 ---
 
@@ -264,6 +295,21 @@ It is a genuine **high-fidelity prototype**: production-quality look and feel, r
 - Every dashboard leads with the *question*, not the chart type, and ends (Dashboard 5) with plain-language takeaways.
 - Per the brief's note on complexity, we deliberately *avoided* clever visualizations: no 3-D, no dual-encoded novelty charts. The volume-vs-danger scatter is "just" a scatter because the scatter is the clearest way to show that volume ≠ danger. Complexity was only kept where it served the clinical question.
 - Null findings (off-label outcomes) are shown as-is rather than reframed — honest storytelling over a tidy narrative.
+
+---
+
+## Why This Is a Data Story — and Why This Format
+
+This project is a data story, not a data dump, and the distinction is the whole point. Underneath the GLP-1 counts and death rates is a story about a population: millions of real patients in 2025, a drug class moving from diabetes wards into weight-loss clinics, and a pattern of dosing errors that shows up the moment a complex injectable lands in less-supervised hands. The data is the vehicle; the patient population is the subject. Every dashboard is built to advance that narrative — from "here is the scale of what we are looking at," to "here is who is reporting and what GLP-1s are actually doing," to a closing panel of plain-language takeaways a clinician can act on.
+
+**Why two formats instead of one.** We deliberately split the deliverable into static dashboards and an interactive portal because the story has two natural reading modes, and forcing both into one artifact would have served neither.
+
+- A **linear, designed dashboard sequence** is the right format for the *argument*. Stories need an order, and a curated five-panel flow lets us control pacing: set up the volume-vs-danger paradox before resolving it, introduce the reporter-bias lens before the GLP-1 deep dive, and land on takeaways last. An interactive tool cannot enforce that arc, because the user clicks wherever they want.
+- A **search-first interactive portal** is the right format for the *lookup*. The bedside question — "what do I need to know about *this* drug, right now" — is inherently non-linear and personal to whatever the clinician just prescribed. A static PDF could never answer it for all 300 drugs; a database with a search box answers it in seconds.
+
+Put differently: the dashboards make the case, and the portal lets the reader interrogate it. Choosing one format would have meant either a beautiful story nobody could query or a useful tool with no argument. The two formats are not redundant — they are the same data told at two altitudes, and that is what makes the whole thing serve its goal.
+
+We also made a conscious choice *against* spectacle. The flashiest version of this project would have leaned on animated network graphs and novelty encodings. We did not, because a clinician deciding whether to worry about a patient's symptom is not looking to be impressed — they are looking to be informed quickly and correctly. The restraint *is* the storytelling approach.
 
 ---
 
