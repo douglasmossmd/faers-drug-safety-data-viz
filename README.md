@@ -40,13 +40,6 @@ The first three are answered by the static Tableau/Plotly/Excel dashboards; the 
 
 We did not start with a chart and look for a reason to build it. We started with a point of view: that the public conversation about drug safety, and GLP-1s especially, runs on volume and vibes rather than on what the post-market data actually shows. FAERS is the closest thing to a ground truth for real-world adverse events, so the plan was to let it either confirm or puncture the conventional wisdom and to report whichever way it landed.
 
-The sequence we worked in:
-
-1. **Write the hypotheses first.** All six hypotheses in the table below were committed to before we ran a single aggregation. This was deliberate — it kept us from p-hacking our way into a tidy story and made the off-label null result something we had to publish rather than something we could quietly drop.
-2. **Clean before we trust.** Roughly 1.6M raw records do not become 1.5M clean ones for free. The deduplication, worst-outcome ranking, and primary-suspect filtering (detailed in *Data Cleaning & Processing*) were the load-bearing decisions; every downstream number inherits them.
-3. **Validate in a second tool.** We rebuilt the headline figures in Excel independently of the Python pipeline. When the two agreed, we trusted the number; when they did not, we found the join bug. Two tools, one answer.
-4. **Design last.** Only once the numbers were stable did we move into Tableau, Plotly, and Inkscape. Polishing a chart that is built on a bad aggregation is wasted effort.
-
 **The assumptions we are making explicit, because they shape every figure:**
 
 - **A report is a signal, not a verdict.** FAERS records that an event was *reported* after a drug was taken, not that the drug *caused* it. We treat counts as signals worth investigating, never as proof of causation.
